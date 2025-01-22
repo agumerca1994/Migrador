@@ -11,12 +11,15 @@ output_folder = os.path.join(base_path, "Template de migracion")
 if not os.path.exists(output_folder):
     os.makedirs(output_folder)
 
-# Nombre del archivo final
+# Nombre del archivo final  
 timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 output_file = os.path.join(output_folder, f"template_de_migracion_{timestamp}.xlsx")
 
-# Obtener la lista de carpetas dentro del directorio base
-subfolders = [f.name for f in os.scandir(base_path) if f.is_dir()]
+# Lista de carpetas a excluir
+exclude_folders = ['.git', 'interface', 'Template de migracion']
+
+# Obtener la lista de carpetas dentro del directorio base, excluyendo las especificadas
+subfolders = [f.name for f in os.scandir(base_path) if f.is_dir() and f.name not in exclude_folders]
 
 # Crear un libro de Excel
 with pd.ExcelWriter(output_file, engine="openpyxl") as writer:
