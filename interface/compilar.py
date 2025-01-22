@@ -7,17 +7,20 @@ from tkinter import messagebox
 from tkinter import ttk
 
 # Función para mostrar la ventana emergente y obtener la selección del usuario
-def seleccionar_carpetas(subfolders):
+def seleccionar_carpetas(subfolders, output_folder):
     def on_submit():
         selected_folders = [subfolders[i] for i in range(len(subfolders)) if var_list[i].get()]
         root.destroy()
-        process_folders(selected_folders)
+        process_folders(selected_folders, output_folder)
 
     def toggle_select_all():
         new_state = not all(var.get() for var in var_list)
         for var in var_list:
             var.set(new_state)
-        if new_state:
+        update_toggle_btn_text()
+
+    def update_toggle_btn_text():
+        if all(var.get() for var in var_list):
             toggle_btn.config(text="Deseleccionar todo", fg="red")
         else:
             toggle_btn.config(text="Seleccionar todo", fg="black")
@@ -51,7 +54,7 @@ def seleccionar_carpetas(subfolders):
 
     for folder in subfolders:
         var = tk.BooleanVar()
-        chk = ttk.Checkbutton(frame, text=folder, variable=var, style="TCheckbutton")
+        chk = ttk.Checkbutton(frame, text=folder, variable=var, style="TCheckbutton", command=update_toggle_btn_text)
         chk.pack(anchor='w')
         var_list.append(var)
 
@@ -61,12 +64,11 @@ def seleccionar_carpetas(subfolders):
     root.mainloop()
 
 # Función para procesar las carpetas seleccionadas
-def process_folders(selected_folders):
+def process_folders(selected_folders, output_folder):
     # Ruta base
     base_path = r"C:\\Migracion"
-    output_folder = os.path.join(base_path, "Template de migracion")
 
-    # Crear la carpeta "Template de migracion" si no existe
+    # Crear la carpeta de salida si no existe
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
 
@@ -125,14 +127,18 @@ def process_folders(selected_folders):
 
     print(f"Archivo consolidado generado en: {output_file}")
 
-# Ruta base
-base_path = r"C:\\Migracion"
+# Función para ejecutar el merge y guardar el archivo en el directorio especificado
+def ejecutar_merge(selected_file):
+    output_folder_name = os.path.splitext(os.path.basename(selected_file))[0]
+    output_folder_path = os.path.join(r"C:\\Migracion\\Template de migracion", output_folder_name)
 
-# Lista de carpetas a excluir
-exclude_folders = ['.git', 'interface', 'Template de migracion']
+    if not os.path.exists(output_folder_path):
+        os.makedirs(output_folder_path)
 
-# Obtener la lista de carpetas dentro del directorio base, excluyendo las especificadas
-subfolders = [f.name for f in os.scandir(base_path) if f.is_dir() and f.name not in exclude_folders]
+    subfolders = [f.name for f in os.scandir(r"C:\\Migracion") if f.is_dir() and f.name not in ['.git', 'interface', 'Template de migracion']]
+    
+    seleccionar_carpetas(subfolders, output_folder_path)
 
-# Mostrar la ventana emergente para seleccionar carpetas
-seleccionar_carpetas(subfolders)
+# Ejemplo de llamada a la función ejecutar_merge con el archivo seleccionado por el usuario (selected_file)
+selected_file_example = "C:\\Migracion\\Cluster1.xlsx"
+ejecutar_merge(selected_file_example)

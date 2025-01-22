@@ -9,12 +9,13 @@ import queue
 
 # Variables globales
 selected_file = None
+output_folder = None
 message_queue = queue.Queue()
 
 # Función para seleccionar un archivo
 # Permite al usuario seleccionar un archivo .xlsx desde el directorio especificado
 def seleccionar_archivo():
-    global selected_file
+    global selected_file, output_folder
     directorio = r"C:\\Migracion"
     archivo = filedialog.askopenfilename(
         initialdir=directorio,
@@ -27,24 +28,35 @@ def seleccionar_archivo():
         for button in buttons:
             button.config(state=tk.NORMAL)
         button_select_file_merge.config(state=tk.NORMAL)  # Habilitar el botón "Merge"
+        
+        # Crear carpeta de salida si no existe
+        output_folder_name = os.path.splitext(os.path.basename(archivo))[0]
+        output_folder_path = os.path.join(r"C:\\Migracion\\Template de migracion", output_folder_name)
+        
+        if not os.path.exists(output_folder_path):
+            os.makedirs(output_folder_path)
+        
+        output_folder = output_folder_path
+        
+        print(f"Carpeta de salida: {output_folder}")
     else:
         messagebox.showwarning("Sin selección", "No se seleccionó ningún archivo.")
 
 # Función para ejecutar un script en un hilo separado
 # Actualiza la barra de progreso mientras se ejecuta el script
 def ejecutar_generar_script(script_name, label):
-    global selected_file
+    global selected_file, output_folder
     if not selected_file:
         messagebox.showwarning("Archivo no seleccionado", "Por favor, selecciona un archivo primero.")
         return
 
     progress_bar.pack(fill=tk.X, pady=10)
-    hilo = threading.Thread(target=_ejecutar_script, args=(script_name, label))
+    hilo = threading.Thread(target=_ejecutar_script, args=(script_name, label, selected_file))
     hilo.start()
 
 # Función auxiliar para ejecutar el script y capturar su salida
-def _ejecutar_script(script_name, label):
-    global selected_file
+def _ejecutar_script(script_name, label, selected_file):
+    global output_folder
     try:
         message_queue.put(("start_progress",))
         script_path = os.path.join(r"C:\\Migracion\\interface", script_name)
@@ -53,7 +65,7 @@ def _ejecutar_script(script_name, label):
             message_queue.put(("error", f"El script {script_name} no se encuentra en la ruta especificada."))
             return
 
-        result = subprocess.run(["python", script_path, selected_file], capture_output=True, text=True)
+        result = subprocess.run(["python", script_path, selected_file, output_folder], capture_output=True, text=True)
         output = result.stdout.strip()
         error = result.stderr.strip()
 
