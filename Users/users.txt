@@ -1,0 +1,3662 @@
+[
+    {
+        "accountName": "MARINOZZI ARMANDO RAUL",
+        "userId": 16263901
+    },
+    {
+        "accountName": "EMP. PCIAL. DE ENERGIA STA.FE",
+        "userId": 17655801
+    },
+    {
+        "accountName": "MUNICIPALIDAD DE ROSARIO",
+        "userId": 26234902
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 18425002
+    },
+    {
+        "accountName": "Claro Argentina Demo",
+        "userId": 17689601
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 10498402
+    },
+    {
+        "accountName": "AMERICA GIS SRL",
+        "userId": 25715402
+    },
+    {
+        "accountName": "A.C. SAT SRL",
+        "userId": 10767602
+    },
+    {
+        "accountName": "KILIMO SA",
+        "userId": 9909301
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 18290902
+    },
+    {
+        "accountName": "DEPARTAMENTO GRAL IRRIGACION",
+        "userId": 12957101
+    },
+    {
+        "accountName": "EMP. PCIAL. DE ENERGIA STA.FE",
+        "userId": 17656301
+    },
+    {
+        "accountName": "QUADMINDS TECHNOLOGIES S.A.",
+        "userId": 7498901
+    },
+    {
+        "accountName": "MUNICIPALIDAD DE ROSARIO",
+        "userId": 15631301
+    },
+    {
+        "accountName": "MARINOZZI ARMANDO RAUL",
+        "userId": 16094901
+    },
+    {
+        "accountName": "PREMIUM SECURITY SRL",
+        "userId": 15247601
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 6605401
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 32386402
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 32546302
+    },
+    {
+        "accountName": "ALAR SUR SRL",
+        "userId": 10043102
+    },
+    {
+        "accountName": "CENTRAL DE OP. MULTIPLES SRL",
+        "userId": 9908902
+    },
+    {
+        "accountName": "CORA DIR S.A.",
+        "userId": 17840701
+    },
+    {
+        "accountName": "MAXTRACKER S.A",
+        "userId": 15462301
+    },
+    {
+        "accountName": "EDES SA",
+        "userId": 13096201
+    },
+    {
+        "accountName": "SUBSEC. DE TESORERIA GRAL Y CREDITO PUBL",
+        "userId": 16086401
+    },
+    {
+        "accountName": "PAN AMERICAN ENERGY LLC",
+        "userId": 17900101
+    },
+    {
+        "accountName": "Nacion Servicios \u2013 Soluci\u00f3n Especial LTE",
+        "userId": 9428101
+    },
+    {
+        "accountName": "MEGATRANS S.A.",
+        "userId": 17561501
+    },
+    {
+        "accountName": "MARINOZZI ARMANDO RAUL",
+        "userId": 9017102
+    },
+    {
+        "accountName": "OLEIROS SA",
+        "userId": 10614002
+    },
+    {
+        "accountName": "VISION DETECT SOCIEDAD RESPONSABILIDAD L",
+        "userId": 12394501
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14273501
+    },
+    {
+        "accountName": "SIAC SEGURIDAD S.R.L.",
+        "userId": 10783702
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 11805902
+    },
+    {
+        "accountName": "LOGISTICA DCN S.A",
+        "userId": 16677801
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14060802
+    },
+    {
+        "accountName": "Claro Argentina Demo",
+        "userId": 15628101
+    },
+    {
+        "accountName": "SEGURITY SRL",
+        "userId": 12503902
+    },
+    {
+        "accountName": "ACRONEX S.R.L.",
+        "userId": 17307001
+    },
+    {
+        "accountName": "24HS SA",
+        "userId": 11112001
+    },
+    {
+        "accountName": "NACION SERVICIOS SA",
+        "userId": 26052602
+    },
+    {
+        "accountName": "MEGATRANS S.A.",
+        "userId": 14520201
+    },
+    {
+        "accountName": "AMERICA GIS SRL",
+        "userId": 15202501
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 15499001
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 11703302
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 11702602
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 17233901
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 26396802
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 14343402
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 32408202
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 11702802
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 14717102
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 11700402
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 32408802
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 11703502
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 11702102
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 11703402
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 11702002
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 10248401
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 11972202
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 10833602
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 11703202
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 10833402
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 11972002
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 11702202
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 12321002
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 12030802
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 32408302
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 11702502
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 11968102
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 17204401
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 16457301
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 10248201
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 13200101
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 13083101
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 14385502
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 12126502
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 14111802
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 12688802
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 13078301
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 12617402
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 32408502
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 26312902
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 15612901
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 13012702
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 17234001
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 12250602
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 18384802
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 17499301
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 32408602
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 32408702
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 16162601
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 16162401
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 16579001
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 16162501
+    },
+    {
+        "accountName": "INTEGRAL INSUMOS S C",
+        "userId": 11582201
+    },
+    {
+        "accountName": "GRUPO MARGEN SA",
+        "userId": 14089202
+    },
+    {
+        "accountName": "OLEIROS SA",
+        "userId": 12222702
+    },
+    {
+        "accountName": "Naci\u00f3n Servicio Posnet",
+        "userId": 14921401
+    },
+    {
+        "accountName": "CMP Testing",
+        "userId": 17834902
+    },
+    {
+        "accountName": "EMPRESA PROVINCIAL DE ENERGIA DE CORDOBA",
+        "userId": 25702202
+    },
+    {
+        "accountName": "BANCO DE LA PROVINCIA DE BS AS",
+        "userId": 16053501
+    },
+    {
+        "accountName": "AXAN S.A.",
+        "userId": 10689802
+    },
+    {
+        "accountName": "OLEIROS SA",
+        "userId": 17867402
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 33242502
+    },
+    {
+        "accountName": "BAUMBACH BRIAN LEANDRO",
+        "userId": 15489401
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 5720001
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 7948402
+    },
+    {
+        "accountName": "LOGISTICA DCN S.A",
+        "userId": 17526201
+    },
+    {
+        "accountName": "MERCADO LIBRE S.R.L.",
+        "userId": 17492101
+    },
+    {
+        "accountName": "MERCADO LIBRE S.R.L.",
+        "userId": 16188801
+    },
+    {
+        "accountName": "Nacion Servicios \u2013 Soluci\u00f3n Especial LTE",
+        "userId": 12320802
+    },
+    {
+        "accountName": "NACION SERVICIOS SA",
+        "userId": 12320702
+    },
+    {
+        "accountName": "MONTES DIEGO SALVADOR",
+        "userId": 11284301
+    },
+    {
+        "accountName": "EDENOR S.A",
+        "userId": 11505101
+    },
+    {
+        "accountName": "Thingco SRL",
+        "userId": 29078602
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 6073302
+    },
+    {
+        "accountName": "Claro Argentina Demo",
+        "userId": 15483501
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 17135101
+    },
+    {
+        "accountName": "ENTE PROVINCIAL DE ENERGI DE N",
+        "userId": 14465601
+    },
+    {
+        "accountName": "ENERGIA DE ENTRE RIOS ENER SA",
+        "userId": 26391402
+    },
+    {
+        "accountName": "BANCO DE LA PROVINCIA DE BS AS",
+        "userId": 16053701
+    },
+    {
+        "accountName": "CROSS SRL",
+        "userId": 12676502
+    },
+    {
+        "accountName": "LA CENTRAL DE VICENTE LOPEZ SA",
+        "userId": 17841001
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 18457902
+    },
+    {
+        "accountName": "BANCO DE LA PROVINCIA DE BS AS",
+        "userId": 16148301
+    },
+    {
+        "accountName": "SIAC SEGURIDAD S.R.L.",
+        "userId": 12329002
+    },
+    {
+        "accountName": "Claro Argentina Demo",
+        "userId": 6395501
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 17857902
+    },
+    {
+        "accountName": "E Y S E EUIPOS Y SISTEMAS ELEC",
+        "userId": 16480201
+    },
+    {
+        "accountName": "EDENOR S.A",
+        "userId": 11174401
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 18291302
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 12309202
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 10680302
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 32350402
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 12999102
+    },
+    {
+        "accountName": "Claro Argentina Papelera",
+        "userId": 12127102
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 9124901
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 6617301
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 12844202
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 7828102
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 9383301
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 29143402
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 9116002
+    },
+    {
+        "accountName": "Claro Argentina Demo",
+        "userId": 12909502
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 9116102
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 7374401
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 9863401
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 7814802
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 9106301
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 10772102
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 11769402
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 13945702
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 10435102
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 16080001
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 8886401
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 6003202
+    },
+    {
+        "accountName": "Claro Argentina Demo",
+        "userId": 5334901
+    },
+    {
+        "accountName": "NACION SERVICIOS SA",
+        "userId": 13283701
+    },
+    {
+        "accountName": "DISCAR S.A.",
+        "userId": 18474202
+    },
+    {
+        "accountName": "SECURITY FACTORY SRL",
+        "userId": 25631702
+    },
+    {
+        "accountName": "SUARTEC SA",
+        "userId": 17230901
+    },
+    {
+        "accountName": "AGUAS CORDOBESAS SA",
+        "userId": 14660102
+    },
+    {
+        "accountName": "T.C. S.A.",
+        "userId": 12192802
+    },
+    {
+        "accountName": "CONTROL SAT S.A.",
+        "userId": 8985601
+    },
+    {
+        "accountName": "Naci\u00f3n Servicio Posnet",
+        "userId": 32534102
+    },
+    {
+        "accountName": "EMP. PCIAL. DE ENERGIA STA.FE",
+        "userId": 29218002
+    },
+    {
+        "accountName": "RIESGONET S.A",
+        "userId": 14475701
+    },
+    {
+        "accountName": "STAR SERVICIOS EMPRESARIOS S.A",
+        "userId": 12061601
+    },
+    {
+        "accountName": "Claro Argentina Demo",
+        "userId": 6100901
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 17598601
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 33242102
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 15934901
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 12216702
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 5385601
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 12439501
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 15321701
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 16222301
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 10573902
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 7437901
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 9217001
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 15934701
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 17401701
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14025702
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 15322001
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 12439401
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 12888301
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 32261502
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 32351402
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14314601
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14857801
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 15879801
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 29218602
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 26271502
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 32350902
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 33238202
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 32419202
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 15519301
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 15932801
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14857701
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 32351102
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 32420702
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 15932901
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14854901
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 32351302
+    },
+    {
+        "accountName": "OLEIROS SA",
+        "userId": 16652801
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 16665801
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 16906401
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 17644901
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 6896602
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 6896402
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 32418802
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 6898102
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 15554401
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 6898302
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 6896302
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 6897102
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 6898402
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 8698701
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 6896702
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 32454402
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 15519101
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 9116202
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 15523501
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 8000401
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 7438001
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 32261602
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 9166401
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 15519201
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 8696801
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 16913801
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 17070601
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 32420602
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 15321801
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 13000002
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14815002
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 6896902
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 12216902
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 8727002
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14879301
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 9413102
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 10259301
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 12297302
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 15932701
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 9413202
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 8670502
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 8204501
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 16906301
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 15321901
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14777402
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 8698501
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 10522202
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 7437701
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 10522402
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 7345601
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 16920901
+    },
+    {
+        "accountName": "MICRACEL S.A.",
+        "userId": 17854102
+    },
+    {
+        "accountName": "SKY COP S A",
+        "userId": 26262502
+    },
+    {
+        "accountName": "EDESA S.A.",
+        "userId": 16113601
+    },
+    {
+        "accountName": "STAR SERVICIOS EMPRESARIOS S.A",
+        "userId": 18271202
+    },
+    {
+        "accountName": "Thingco SRL",
+        "userId": 16580601
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 12054401
+    },
+    {
+        "accountName": "GCBA",
+        "userId": 6898701
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 6323101
+    },
+    {
+        "accountName": "AGUA Y SANEAMIENTOS ARGENTINOS",
+        "userId": 9293602
+    },
+    {
+        "accountName": "NACION SERVICIOS SA",
+        "userId": 7826702
+    },
+    {
+        "accountName": "Claro Argentina Mkt",
+        "userId": 6208001
+    },
+    {
+        "accountName": "LOGISTICA DCN S.A",
+        "userId": 12658002
+    },
+    {
+        "accountName": "ELECTRONICA PAMPEANA S.R.L.",
+        "userId": 17655402
+    },
+    {
+        "accountName": "TRANSPORTADORA GAS DEL NORTE",
+        "userId": 14340701
+    },
+    {
+        "accountName": "Nacion Servicios \u2013 Soluci\u00f3n Especial LTE",
+        "userId": 14048402
+    },
+    {
+        "accountName": "PREMIUM SECURITY SRL",
+        "userId": 15312701
+    },
+    {
+        "accountName": "DI BELLA, LUCAS GASTON",
+        "userId": 16593901
+    },
+    {
+        "accountName": "Claro Argentina ABM",
+        "userId": 10280601
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 6226101
+    },
+    {
+        "accountName": "DESARROLLOS DEL LITORAL SA",
+        "userId": 8894701
+    },
+    {
+        "accountName": "24HS SA",
+        "userId": 15267401
+    },
+    {
+        "accountName": "MELLANO DAMIAN",
+        "userId": 18027502
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14243602
+    },
+    {
+        "accountName": "EMPRESA DISTRIBUIDORA DEENERGIA ATLANTIC",
+        "userId": 14962301
+    },
+    {
+        "accountName": "OLEIROS SA",
+        "userId": 15468701
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 7667402
+    },
+    {
+        "accountName": "LOGISTICA DCN S.A",
+        "userId": 7867902
+    },
+    {
+        "accountName": "MASTER BUS S.A.",
+        "userId": 32318202
+    },
+    {
+        "accountName": "QUALITY SYSTEMS GROUP SRL",
+        "userId": 17902202
+    },
+    {
+        "accountName": "OLEIROS SA",
+        "userId": 11966902
+    },
+    {
+        "accountName": "ECOHABITAT S.A Y OTRA UNION TRANSITORIA",
+        "userId": 10722302
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 9863001
+    },
+    {
+        "accountName": "EDESUR",
+        "userId": 10184902
+    },
+    {
+        "accountName": "BANCO DE LA PROVINCIA DE BS AS",
+        "userId": 16053401
+    },
+    {
+        "accountName": "EDENOR S.A",
+        "userId": 11174501
+    },
+    {
+        "accountName": "BLO BINESTAR LOGISTICA Y ORGANIZACION SA",
+        "userId": 17955302
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 7697002
+    },
+    {
+        "accountName": "Claro Argentina Demo",
+        "userId": 14583001
+    },
+    {
+        "accountName": "ELECTRONICA PAMPEANA S.R.L.",
+        "userId": 9160801
+    },
+    {
+        "accountName": "EMP. PCIAL. DE ENERGIA STA.FE",
+        "userId": 17655701
+    },
+    {
+        "accountName": "SITRACK.COM ARGENTINA S.A.",
+        "userId": 17649302
+    },
+    {
+        "accountName": "EMPRESA DISTRIBUIDORA DE ENERG",
+        "userId": 9258001
+    },
+    {
+        "accountName": "EMPRESA DISTRIBUIDORA DE ENERG",
+        "userId": 11759002
+    },
+    {
+        "accountName": "TRANSPORTADORA GAS DEL NORTE",
+        "userId": 14374001
+    },
+    {
+        "accountName": "EMPRESA PROVINCIAL DE ENERGIA DE CORDOBA",
+        "userId": 25786302
+    },
+    {
+        "accountName": "EMP. PCIAL. DE ENERGIA STA.FE",
+        "userId": 29110002
+    },
+    {
+        "accountName": "DEPARTAMENTO GRAL IRRIGACION",
+        "userId": 9902701
+    },
+    {
+        "accountName": "TELPOP SA",
+        "userId": 15103301
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 15631201
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 15055701
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 9893301
+    },
+    {
+        "accountName": "QUALITY SYSTEMS GROUP SRL",
+        "userId": 16690701
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 16079801
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14555701
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 7904201
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14572201
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 7904601
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14556501
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14558901
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14550501
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14570201
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 9184901
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 10640602
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14566501
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 29326102
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 6898002
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14554401
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14572601
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14565301
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14563701
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14556001
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14558501
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 10043501
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 10042101
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14567901
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14556401
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14555501
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14568201
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 13891102
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 16453001
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14568101
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14550601
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 6897602
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14572101
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 26291902
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 10043101
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14559301
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14554501
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14555601
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 7903701
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14330701
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14563801
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14572301
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 7906701
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14571701
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 12838502
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14553601
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 6904202
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14565901
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14565801
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14551001
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 10641702
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14551101
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14556701
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 10641402
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 11085601
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 10044301
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 10639902
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 10044801
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 10675102
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14572001
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 10640202
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14569901
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 7906801
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 7439601
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 7903301
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 10044001
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14554301
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14554801
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14565401
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 10640002
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 10044501
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14551401
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 7905901
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 13891202
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 10639802
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14578201
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14570001
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14559001
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14568301
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14556201
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14554201
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14552101
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14554701
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14558301
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 7439501
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 10042401
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14571801
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14566701
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 13009402
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14354301
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 7439401
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 7905201
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 10042901
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 7906001
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14571601
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 13888802
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 7906501
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14567001
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 10043801
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 7906901
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14559201
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 10042201
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 10043201
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14566901
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 32263102
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14551801
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 6897402
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14553901
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14558601
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14571901
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 35828202
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 6897502
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 10043401
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14566601
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 7905001
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 10044401
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 10044701
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14552701
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 7907201
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 7838701
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14558701
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 29309302
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14555801
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 10044601
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14557901
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14565501
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14568001
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 6897902
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 6898602
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 7905301
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 6897802
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14570101
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14559101
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14558101
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14552901
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 6897702
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 10641802
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14572401
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14569801
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 6897002
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14551601
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 14553801
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 11918902
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 7440001
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 7439801
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 8221902
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 8221802
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 7440701
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 7440601
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 9006802
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 12469802
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 10717802
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 13950002
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 12469702
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 21524802
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 11664001
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 15578001
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 29166502
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 29166402
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 15578201
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 32351002
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 29166602
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 32351202
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 17642201
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 16079901
+    },
+    {
+        "accountName": "Nacion Servicios \u2013 Soluci\u00f3n Especial LTE",
+        "userId": 14247201
+    },
+    {
+        "accountName": "EYCON S.A.",
+        "userId": 8348601
+    },
+    {
+        "accountName": "LOGISTICA DCN S.A",
+        "userId": 29159002
+    },
+    {
+        "accountName": "MICRACEL S.A.",
+        "userId": 11277301
+    },
+    {
+        "accountName": "COMPA\u00d1IA OMNIBUS 25 DE MAYO LINEA 278 SA",
+        "userId": 14514902
+    },
+    {
+        "accountName": "24HS SA",
+        "userId": 14733402
+    },
+    {
+        "accountName": "SYNKRO SA",
+        "userId": 12960401
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 18291502
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 17857802
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 25422802
+    },
+    {
+        "accountName": "MEGATRANS S.A.",
+        "userId": 17521101
+    },
+    {
+        "accountName": "MERCADO LIBRE S.R.L.",
+        "userId": 16217501
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 8290002
+    },
+    {
+        "accountName": "MINIS DE SEG DE LA PROV DE CORRIENTES",
+        "userId": 13932402
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 6675201
+    },
+    {
+        "accountName": "EDESA S.A.",
+        "userId": 16098001
+    },
+    {
+        "accountName": "Albiero Hnos SRL",
+        "userId": 17428301
+    },
+    {
+        "accountName": "EMP. PCIAL. DE ENERGIA STA.FE",
+        "userId": 17656101
+    },
+    {
+        "accountName": "E Y S E EUIPOS Y SISTEMAS ELEC",
+        "userId": 8144502
+    },
+    {
+        "accountName": "T.C. S.A.",
+        "userId": 29145502
+    },
+    {
+        "accountName": "EMP. PCIAL. DE ENERGIA STA.FE",
+        "userId": 29218102
+    },
+    {
+        "accountName": "CROSS SRL",
+        "userId": 14260502
+    },
+    {
+        "accountName": "SYNKRO SA",
+        "userId": 9147401
+    },
+    {
+        "accountName": "EDENOR S.A",
+        "userId": 14224302
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 17858002
+    },
+    {
+        "accountName": "EMP. PCIAL. DE ENERGIA STA.FE",
+        "userId": 29218202
+    },
+    {
+        "accountName": "EMP. PCIAL. DE ENERGIA STA.FE",
+        "userId": 29218302
+    },
+    {
+        "accountName": "Claro Argentina Demo",
+        "userId": 5768701
+    },
+    {
+        "accountName": "EMPRESA PROVINCIAL DE ENERGIA DE CORDOBA",
+        "userId": 25747202
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 6226501
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 5451401
+    },
+    {
+        "accountName": "ACRONEX S.R.L.",
+        "userId": 14476801
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 18458002
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 17627501
+    },
+    {
+        "accountName": "TECNIMAS SA",
+        "userId": 12477202
+    },
+    {
+        "accountName": "AGUA Y SANEAMIENTOS ARGENTINOS",
+        "userId": 12333901
+    },
+    {
+        "accountName": "MARINOZZI ARMANDO RAUL",
+        "userId": 16094801
+    },
+    {
+        "accountName": "Thingco SRL",
+        "userId": 29080202
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 17824302
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 6649201
+    },
+    {
+        "accountName": "MUNICIPALIDAD DE ROSARIO",
+        "userId": 25669002
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 6225901
+    },
+    {
+        "accountName": "GASNOR SA",
+        "userId": 11757102
+    },
+    {
+        "accountName": "MICRACEL S.A.",
+        "userId": 18353002
+    },
+    {
+        "accountName": "MEGATRANS S.A.",
+        "userId": 16448001
+    },
+    {
+        "accountName": "SKY COP S A",
+        "userId": 16447801
+    },
+    {
+        "accountName": "LOGSAT S.A",
+        "userId": 8926601
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 9058701
+    },
+    {
+        "accountName": "ENERGIA DE ENTRE RIOS ENER SA",
+        "userId": 26391602
+    },
+    {
+        "accountName": "GESTION ELECTRONICA Y COMERCIALIZACION S",
+        "userId": 9964702
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 18291402
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 17135301
+    },
+    {
+        "accountName": "T.C. S.A.",
+        "userId": 14240802
+    },
+    {
+        "accountName": "OLEIROS SA",
+        "userId": 14299902
+    },
+    {
+        "accountName": "BIT S.A.",
+        "userId": 8792502
+    },
+    {
+        "accountName": "SEAC S.A.",
+        "userId": 6632901
+    },
+    {
+        "accountName": "MEGATRANS S.A.",
+        "userId": 12189202
+    },
+    {
+        "accountName": "MAXTRACKER S.A",
+        "userId": 25453502
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 6778302
+    },
+    {
+        "accountName": "DEPARTAMENTO GRAL IRRIGACION",
+        "userId": 9917401
+    },
+    {
+        "accountName": "Demo Newcom",
+        "userId": 9115101
+    },
+    {
+        "accountName": "EMP. PCIAL. DE ENERGIA STA.FE",
+        "userId": 29218402
+    },
+    {
+        "accountName": "Claro Argentina Demo",
+        "userId": 32403902
+    },
+    {
+        "accountName": "COMUNIDAT SAS",
+        "userId": 32252902
+    },
+    {
+        "accountName": "NACION SERVICIOS SA",
+        "userId": 26060802
+    },
+    {
+        "accountName": "VISION DETECT SOCIEDAD RESPONSABILIDAD L",
+        "userId": 17541301
+    },
+    {
+        "accountName": "EMPRESA DISTRIBUIDORA LA PLATA",
+        "userId": 11864002
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 32425902
+    },
+    {
+        "accountName": "GRUPO MARGEN SA",
+        "userId": 9156801
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 6226601
+    },
+    {
+        "accountName": "LOGISTICA DCN S.A",
+        "userId": 13949502
+    },
+    {
+        "accountName": "TECNIMAS SA",
+        "userId": 15556301
+    },
+    {
+        "accountName": "MUNICIPALIDAD DE ROSARIO",
+        "userId": 14509801
+    },
+    {
+        "accountName": "SKY COP S A",
+        "userId": 14982901
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 7070502
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 9390601
+    },
+    {
+        "accountName": "QUADMINDS TECHNOLOGIES S.A.",
+        "userId": 13188701
+    },
+    {
+        "accountName": "NACION SERVICIOS SA",
+        "userId": 7826902
+    },
+    {
+        "accountName": "Claro Argentina Demo",
+        "userId": 14510501
+    },
+    {
+        "accountName": "Nacion Servicios \u2013 Soluci\u00f3n Especial LTE",
+        "userId": 9426301
+    },
+    {
+        "accountName": "Nacion Servicios \u2013 Soluci\u00f3n Especial LTE",
+        "userId": 9428001
+    },
+    {
+        "accountName": "MINIS DE SEG DE LA PROV DE CORRIENTES",
+        "userId": 12344101
+    },
+    {
+        "accountName": "SUBSEC. DE TESORERIA GRAL Y CREDITO PUBL",
+        "userId": 16086301
+    },
+    {
+        "accountName": "NACION SERVICIOS SA",
+        "userId": 10601002
+    },
+    {
+        "accountName": "NACION SERVICIOS SA",
+        "userId": 26052502
+    },
+    {
+        "accountName": "ENERGIA DE ENTRE RIOS ENER SA",
+        "userId": 26375702
+    },
+    {
+        "accountName": "SITRACK.COM ARGENTINA S.A.",
+        "userId": 11525501
+    },
+    {
+        "accountName": "ENERGIA DE ENTRE RIOS ENER SA",
+        "userId": 26378202
+    },
+    {
+        "accountName": "SUBSEC. DE TESORERIA GRAL Y CREDITO PUBL",
+        "userId": 15941701
+    },
+    {
+        "accountName": "OLEIROS SA",
+        "userId": 8480801
+    },
+    {
+        "accountName": "RIESGONET S.A",
+        "userId": 6573201
+    },
+    {
+        "accountName": "IDEC GPS SA",
+        "userId": 10566002
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 7512502
+    },
+    {
+        "accountName": "INFOTRAK SRL",
+        "userId": 10745302
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 32422002
+    },
+    {
+        "accountName": "IP SECURITY SA",
+        "userId": 16061401
+    },
+    {
+        "accountName": "EMP. PCIAL. DE ENERGIA STA.FE",
+        "userId": 17655901
+    },
+    {
+        "accountName": "IT SOLUCIONES SRL",
+        "userId": 6805201
+    },
+    {
+        "accountName": "KILIMO SA",
+        "userId": 12646002
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 17614701
+    },
+    {
+        "accountName": "SE\u00d1ALCO SUDAMERICANA S.A.",
+        "userId": 12504502
+    },
+    {
+        "accountName": "EDENRED ARGENTINA SOCIEDAD ANONIMA",
+        "userId": 9147301
+    },
+    {
+        "accountName": "EMP. PCIAL. DE ENERGIA STA.FE",
+        "userId": 17656201
+    },
+    {
+        "accountName": "SYNKRO SA",
+        "userId": 10615002
+    },
+    {
+        "accountName": "EMPRESA DISTRIBUIDORA LA PLATA",
+        "userId": 15314401
+    },
+    {
+        "accountName": "EMPRESA DISTRIBUIDORA LA PLATA",
+        "userId": 29253802
+    },
+    {
+        "accountName": "GCBA",
+        "userId": 12274601
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 6859002
+    },
+    {
+        "accountName": "MAXTRACKER S.A",
+        "userId": 25453802
+    },
+    {
+        "accountName": "OLEIROS SA",
+        "userId": 9370802
+    },
+    {
+        "accountName": "OLEIROS SA",
+        "userId": 15648501
+    },
+    {
+        "accountName": "NACION SERVICIOS SA",
+        "userId": 14569101
+    },
+    {
+        "accountName": "Nacion Servicios \u2013 Soluci\u00f3n Especial LTE",
+        "userId": 14569301
+    },
+    {
+        "accountName": "OLEIROS SA",
+        "userId": 9258802
+    },
+    {
+        "accountName": "OLEIROS SA",
+        "userId": 15648601
+    },
+    {
+        "accountName": "SYNKRO SA",
+        "userId": 10079502
+    },
+    {
+        "accountName": "Claro Argentina Demo",
+        "userId": 5768401
+    },
+    {
+        "accountName": "MARINOZZI ARMANDO RAUL",
+        "userId": 25681602
+    },
+    {
+        "accountName": "OLEIROS SA",
+        "userId": 9885601
+    },
+    {
+        "accountName": "Claro Argentina Demo",
+        "userId": 6251202
+    },
+    {
+        "accountName": "REXYS SOCIEDAD ANONIMA",
+        "userId": 17441801
+    },
+    {
+        "accountName": "EMPRESA PROVINCIAL DE ENERGIA DE CORDOBA",
+        "userId": 25747402
+    },
+    {
+        "accountName": "QUALITY SYSTEMS GROUP SRL",
+        "userId": 16690801
+    },
+    {
+        "accountName": "EMP. PCIAL. DE ENERGIA STA.FE",
+        "userId": 17655501
+    },
+    {
+        "accountName": "MERCADO LIBRE S.R.L.",
+        "userId": 29036202
+    },
+    {
+        "accountName": "AGUAS CORDOBESAS SA",
+        "userId": 14708002
+    },
+    {
+        "accountName": "NACION SERVICIOS SA",
+        "userId": 14567401
+    },
+    {
+        "accountName": "Nacion Servicios \u2013 Soluci\u00f3n Especial LTE",
+        "userId": 14567601
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 18290702
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 7504502
+    },
+    {
+        "accountName": "EDENOR S.A",
+        "userId": 11487601
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 13054101
+    },
+    {
+        "accountName": "RODRIGUEZ GUERRERO JUAN MANUEL",
+        "userId": 17388001
+    },
+    {
+        "accountName": "Claro Argentina Demo",
+        "userId": 32326902
+    },
+    {
+        "accountName": "AGUAS CORDOBESAS SA",
+        "userId": 14628002
+    },
+    {
+        "accountName": "GTCS S.A.",
+        "userId": 9245001
+    },
+    {
+        "accountName": "MEGATRANS S.A.",
+        "userId": 15169601
+    },
+    {
+        "accountName": "GEOTEC MOBILE SRL",
+        "userId": 17478001
+    },
+    {
+        "accountName": "Thingco SRL",
+        "userId": 29080302
+    },
+    {
+        "accountName": "MUNICIPALIDAD DE ROSARIO",
+        "userId": 26257802
+    },
+    {
+        "accountName": "REXYS SOCIEDAD ANONIMA",
+        "userId": 17354001
+    },
+    {
+        "accountName": "24HS SA",
+        "userId": 15250501
+    },
+    {
+        "accountName": "STAR SERVICIOS EMPRESARIOS S.A",
+        "userId": 14417801
+    },
+    {
+        "accountName": "E Y S E EUIPOS Y SISTEMAS ELEC",
+        "userId": 6758901
+    },
+    {
+        "accountName": "E Y S E EUIPOS Y SISTEMAS ELEC",
+        "userId": 8144602
+    },
+    {
+        "accountName": "SUARTEC SA",
+        "userId": 17326401
+    },
+    {
+        "accountName": "Claro Argentina ABM",
+        "userId": 10281501
+    },
+    {
+        "accountName": "SYNKRO SA",
+        "userId": 13907902
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 12837702
+    },
+    {
+        "accountName": "MUNICIPALIDAD DE ROSARIO",
+        "userId": 14509201
+    },
+    {
+        "accountName": "STAR SERVICIOS EMPRESARIOS S.A",
+        "userId": 12055101
+    },
+    {
+        "accountName": "Naci\u00f3n Servicio Posnet",
+        "userId": 14921301
+    },
+    {
+        "accountName": "RODRIGUEZ GUERRERO JUAN MANUEL",
+        "userId": 21455802
+    },
+    {
+        "accountName": "ACRONEX S.R.L.",
+        "userId": 12967401
+    },
+    {
+        "accountName": "24HS SA",
+        "userId": 11121201
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 18458202
+    },
+    {
+        "accountName": "SYNKRO SA",
+        "userId": 29131502
+    },
+    {
+        "accountName": "24HS SA",
+        "userId": 25621902
+    },
+    {
+        "accountName": "Transdat SRL",
+        "userId": 6617702
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 6226401
+    },
+    {
+        "accountName": "LA CENTRAL DE VICENTE LOPEZ SA",
+        "userId": 17852201
+    },
+    {
+        "accountName": "TELPOP SA",
+        "userId": 15535801
+    },
+    {
+        "accountName": "T.C. S.A.",
+        "userId": 14240902
+    },
+    {
+        "accountName": "SIAC SEGURIDAD S.R.L.",
+        "userId": 9634001
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 6438501
+    },
+    {
+        "accountName": "EMPRESA DISTRIBUIDORA LA PLATA",
+        "userId": 12046102
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 9878902
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 12837902
+    },
+    {
+        "accountName": "EMP. PCIAL. DE ENERGIA STA.FE",
+        "userId": 17656001
+    },
+    {
+        "accountName": "OLEIROS SA",
+        "userId": 14415701
+    },
+    {
+        "accountName": "T.C. S.A.",
+        "userId": 14263201
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 17714601
+    },
+    {
+        "accountName": "EMPRESA DISTRIBUIDORA LA PLATA",
+        "userId": 29332402
+    },
+    {
+        "accountName": "NACION SERVICIOS SA",
+        "userId": 7826002
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 10637101
+    },
+    {
+        "accountName": "A.C. SAT SRL",
+        "userId": 14281101
+    },
+    {
+        "accountName": "NACION SERVICIOS SA",
+        "userId": 9199701
+    },
+    {
+        "accountName": "MEGATRANS S.A.",
+        "userId": 29211302
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 17858102
+    },
+    {
+        "accountName": "R-LINK SA",
+        "userId": 12758802
+    },
+    {
+        "accountName": "LOGISTICA DCN S.A",
+        "userId": 17156101
+    },
+    {
+        "accountName": "TRANSPORTADORA GAS DEL NORTE",
+        "userId": 14373901
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 18458102
+    },
+    {
+        "accountName": "OLEIROS SA",
+        "userId": 15548401
+    },
+    {
+        "accountName": "Nacion Servicios \u2013 Soluci\u00f3n Especial LTE",
+        "userId": 14263801
+    },
+    {
+        "accountName": "SITRACK.COM ARGENTINA S.A.",
+        "userId": 17649202
+    },
+    {
+        "accountName": "EDESUR",
+        "userId": 14927501
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 17653001
+    },
+    {
+        "accountName": "COM SEG ARGENTINA S.A.S.",
+        "userId": 11259701
+    },
+    {
+        "accountName": "ALAR SUR SRL",
+        "userId": 10058702
+    },
+    {
+        "accountName": "EDENOR S.A",
+        "userId": 11174201
+    },
+    {
+        "accountName": "OLEIROS SA",
+        "userId": 15623301
+    },
+    {
+        "accountName": "MAXTRACKER S.A",
+        "userId": 25453602
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 11740101
+    },
+    {
+        "accountName": "NOVIT S.A.",
+        "userId": 15056201
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 17714501
+    },
+    {
+        "accountName": "MERCADO LIBRE S.R.L.",
+        "userId": 17862901
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 17401801
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 17401901
+    },
+    {
+        "accountName": "SE\u00d1ALCO SUDAMERICANA S.A.",
+        "userId": 7523702
+    },
+    {
+        "accountName": "TELPOP SA",
+        "userId": 10738302
+    },
+    {
+        "accountName": "LOGISTICA DCN S.A",
+        "userId": 13949302
+    },
+    {
+        "accountName": "EDESUR",
+        "userId": 12943902
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 17652901
+    },
+    {
+        "accountName": "SKY COP S A",
+        "userId": 15009801
+    },
+    {
+        "accountName": "SKY COP S A",
+        "userId": 16126201
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 12290001
+    },
+    {
+        "accountName": "ACRONEX S.R.L.",
+        "userId": 29103602
+    },
+    {
+        "accountName": "MAURE GUILLERMO",
+        "userId": 14108402
+    },
+    {
+        "accountName": "STAR SERVICIOS EMPRESARIOS S.A",
+        "userId": 15007901
+    },
+    {
+        "accountName": "EDES SA",
+        "userId": 13237101
+    },
+    {
+        "accountName": "SITRACK.COM ARGENTINA S.A.",
+        "userId": 12738702
+    },
+    {
+        "accountName": "EDENOR S.A",
+        "userId": 11174301
+    },
+    {
+        "accountName": "SEGURIDAD ELECTRONICA GENERAL ALVARADO SRL",
+        "userId": 14549301
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 7583002
+    },
+    {
+        "accountName": "DISCAR S.A.",
+        "userId": 18474302
+    },
+    {
+        "accountName": "ENERGIA DE ENTRE RIOS ENER SA",
+        "userId": 26391502
+    },
+    {
+        "accountName": "SUARTEC SA",
+        "userId": 13095101
+    },
+    {
+        "accountName": "EMPRENDIMIENTOS MOVILES SRL",
+        "userId": 11749001
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 9391101
+    },
+    {
+        "accountName": "24HS SA",
+        "userId": 21589402
+    },
+    {
+        "accountName": "OLEIROS SA",
+        "userId": 9370902
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 13944902
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 18424802
+    },
+    {
+        "accountName": "EDENOR S.A",
+        "userId": 25727702
+    },
+    {
+        "accountName": "MEGATRANS S.A.",
+        "userId": 17522301
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 7440302
+    },
+    {
+        "accountName": "SECURITY CONSULTANT S.A.",
+        "userId": 7290801
+    },
+    {
+        "accountName": "SUBSEC. DE TESORERIA GRAL Y CREDITO PUBL",
+        "userId": 16623601
+    },
+    {
+        "accountName": "QUALITY SYSTEMS GROUP SRL",
+        "userId": 15542101
+    },
+    {
+        "accountName": "EMPRESA DISTRIBUIDORA DEENERGIA ATLANTIC",
+        "userId": 14962101
+    },
+    {
+        "accountName": "MEGATRANS S.A.",
+        "userId": 29211202
+    },
+    {
+        "accountName": "ZOIA MAURICIO GASTON",
+        "userId": 14273001
+    },
+    {
+        "accountName": "EDESA S.A.",
+        "userId": 35834002
+    },
+    {
+        "accountName": "Nacion Servicios \u2013 Soluci\u00f3n Especial LTE",
+        "userId": 11266801
+    },
+    {
+        "accountName": "MICRACEL S.A.",
+        "userId": 9145701
+    },
+    {
+        "accountName": "E Y S E EUIPOS Y SISTEMAS ELEC",
+        "userId": 9160102
+    },
+    {
+        "accountName": "SIAC SEGURIDAD S.R.L.",
+        "userId": 12177802
+    },
+    {
+        "accountName": "SITRACK.COM ARGENTINA S.A.",
+        "userId": 26238502
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 6226001
+    },
+    {
+        "accountName": "SE\u00d1ALCO SUDAMERICANA S.A.",
+        "userId": 7614002
+    },
+    {
+        "accountName": "EDESA S.A.",
+        "userId": 16113701
+    },
+    {
+        "accountName": "AMERICA GIS SRL",
+        "userId": 26258702
+    },
+    {
+        "accountName": "ILUMINATION S.A",
+        "userId": 10699602
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 6225801
+    },
+    {
+        "accountName": "VISION DETECT SOCIEDAD RESPONSABILIDAD L",
+        "userId": 17976802
+    },
+    {
+        "accountName": "BLO BINESTAR LOGISTICA Y ORGANIZACION SA",
+        "userId": 17977902
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 11154101
+    },
+    {
+        "accountName": "Albiero Hnos SRL",
+        "userId": 6662002
+    },
+    {
+        "accountName": "LOGSAT S.A",
+        "userId": 15553901
+    },
+    {
+        "accountName": "MONTES DIEGO SALVADOR",
+        "userId": 11168901
+    },
+    {
+        "accountName": "EYCON S.A.",
+        "userId": 11745901
+    },
+    {
+        "accountName": "BANCO DE LA PROVINCIA DE BS AS",
+        "userId": 16053801
+    },
+    {
+        "accountName": "BANCO DE LA PROVINCIA DE BS AS",
+        "userId": 16093101
+    },
+    {
+        "accountName": "Claro Argentina Demo",
+        "userId": 5768501
+    },
+    {
+        "accountName": "SUBSEC. DE TESORERIA GRAL Y CREDITO PUBL",
+        "userId": 16080301
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 6585801
+    },
+    {
+        "accountName": "NACION SERVICIOS SA",
+        "userId": 14568601
+    },
+    {
+        "accountName": "Nacion Servicios \u2013 Soluci\u00f3n Especial LTE",
+        "userId": 14569001
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 6361302
+    },
+    {
+        "accountName": "Claro Argentina ABM",
+        "userId": 10282201
+    },
+    {
+        "accountName": "MULTEO SRL",
+        "userId": 32523902
+    },
+    {
+        "accountName": "QUADMINDS TECHNOLOGIES S.A.",
+        "userId": 13192601
+    },
+    {
+        "accountName": "TRANSPORTADORA GAS DEL NORTE",
+        "userId": 14947701
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 18287302
+    },
+    {
+        "accountName": "NACION SERVICIOS SA",
+        "userId": 14568701
+    },
+    {
+        "accountName": "Nacion Servicios \u2013 Soluci\u00f3n Especial LTE",
+        "userId": 14569201
+    },
+    {
+        "accountName": "MUNICIPALIDAD DE ROSARIO",
+        "userId": 26228202
+    },
+    {
+        "accountName": "SERVINTWEB SRL",
+        "userId": 8141101
+    },
+    {
+        "accountName": "SITRACK.COM ARGENTINA S.A.",
+        "userId": 17834702
+    },
+    {
+        "accountName": "VIRTUALPIN S.A.",
+        "userId": 8361702
+    },
+    {
+        "accountName": "SIAC SEGURIDAD S.R.L.",
+        "userId": 12178102
+    },
+    {
+        "accountName": "NACION SERVICIOS SA",
+        "userId": 14566801
+    },
+    {
+        "accountName": "Nacion Servicios \u2013 Soluci\u00f3n Especial LTE",
+        "userId": 14567301
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 11684501
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 17131801
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 18290602
+    },
+    {
+        "accountName": "24HS SA",
+        "userId": 29192202
+    },
+    {
+        "accountName": "JD Seguridad Integral",
+        "userId": 14792302
+    },
+    {
+        "accountName": "Naci\u00f3n Servicio Posnet",
+        "userId": 14976901
+    },
+    {
+        "accountName": "MARINOZZI ARMANDO RAUL",
+        "userId": 16095001
+    },
+    {
+        "accountName": "AGUA Y SANEAMIENTOS ARGENTINOS",
+        "userId": 14791602
+    },
+    {
+        "accountName": "MICRACEL S.A.",
+        "userId": 11735701
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 18424902
+    },
+    {
+        "accountName": "VISION DETECT SOCIEDAD RESPONSABILIDAD L",
+        "userId": 12334401
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 6687201
+    },
+    {
+        "accountName": "NOVIT S.A.",
+        "userId": 14322201
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 6964402
+    },
+    {
+        "accountName": "NACION SERVICIOS SA",
+        "userId": 14569701
+    },
+    {
+        "accountName": "Nacion Servicios \u2013 Soluci\u00f3n Especial LTE",
+        "userId": 14570401
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 6226701
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 18291102
+    },
+    {
+        "accountName": "N.T.B.SA",
+        "userId": 7506802
+    },
+    {
+        "accountName": "MICRACEL S.A.",
+        "userId": 11735401
+    },
+    {
+        "accountName": "QUALITY SYSTEMS GROUP SRL",
+        "userId": 17906502
+    },
+    {
+        "accountName": "OLEIROS SA",
+        "userId": 7053701
+    },
+    {
+        "accountName": "ENTE PROVINCIAL DE ENERGI DE N",
+        "userId": 14465701
+    },
+    {
+        "accountName": "SUARTEC SA",
+        "userId": 11776602
+    },
+    {
+        "accountName": "ORMACHEA CARLOS EZEQUIEL",
+        "userId": 6865401
+    },
+    {
+        "accountName": "MUNICIPALIDAD DE ROSARIO",
+        "userId": 26060702
+    },
+    {
+        "accountName": "MUNICIPALIDAD DE ROSARIO",
+        "userId": 26232802
+    },
+    {
+        "accountName": "SITRACK.COM ARGENTINA S.A.",
+        "userId": 29339702
+    },
+    {
+        "accountName": "SEAC S.A.",
+        "userId": 6752301
+    },
+    {
+        "accountName": "SITRACK.COM ARGENTINA S.A.",
+        "userId": 17649102
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 10500602
+    },
+    {
+        "accountName": "SITRACK.COM ARGENTINA S.A.",
+        "userId": 12919701
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 6835201
+    },
+    {
+        "accountName": "Demo CeSPI - UNLP",
+        "userId": 9115001
+    },
+    {
+        "accountName": "NACION SERVICIOS SA",
+        "userId": 14390001
+    },
+    {
+        "accountName": "Nacion Servicios \u2013 Soluci\u00f3n Especial LTE",
+        "userId": 14390301
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 6226201
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 41232702
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 15055801
+    },
+    {
+        "accountName": "SITRACK.COM ARGENTINA S.A.",
+        "userId": 29057902
+    },
+    {
+        "accountName": "MARINO JOSE FRANCISCO PREZ PEDRO EMANUEL",
+        "userId": 9045401
+    },
+    {
+        "accountName": "EDENOR S.A",
+        "userId": 17857002
+    },
+    {
+        "accountName": "PEREZ SOFIA SOLEDAD",
+        "userId": 17663601
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 17714401
+    },
+    {
+        "accountName": "CONVERGIA ARGENTINA SA",
+        "userId": 17642301
+    },
+    {
+        "accountName": "OLEIROS SA",
+        "userId": 17132801
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 10534902
+    },
+    {
+        "accountName": "MEGATRANS S.A.",
+        "userId": 15012101
+    },
+    {
+        "accountName": "QUALITY SYSTEMS GROUP SRL",
+        "userId": 25598202
+    },
+    {
+        "accountName": "RED SECURITY SRL",
+        "userId": 11268201
+    },
+    {
+        "accountName": "JD Seguridad Integral",
+        "userId": 11454901
+    },
+    {
+        "accountName": "Claro Argentina ABM",
+        "userId": 10281001
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 9280501
+    },
+    {
+        "accountName": "MULTEO SRL",
+        "userId": 32524002
+    },
+    {
+        "accountName": "PROTECCION TOTAL S.A.",
+        "userId": 11748902
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 8874801
+    },
+    {
+        "accountName": "EDES SA",
+        "userId": 25507202
+    },
+    {
+        "accountName": "OLEIROS SA",
+        "userId": 16644001
+    },
+    {
+        "accountName": "PROTECCION TOTAL S.A.",
+        "userId": 11815002
+    },
+    {
+        "accountName": "SERVICIOS Y SEGURIDAD",
+        "userId": 16080801
+    },
+    {
+        "accountName": "LOGISTICA DCN S.A",
+        "userId": 11282201
+    },
+    {
+        "accountName": "NACION SERVICIOS SA",
+        "userId": 14566401
+    },
+    {
+        "accountName": "Nacion Servicios \u2013 Soluci\u00f3n Especial LTE",
+        "userId": 14567101
+    },
+    {
+        "accountName": "OLEIROS SA",
+        "userId": 10870202
+    },
+    {
+        "accountName": "EMPRESA PROVINCIAL DE ENERGIA DE CORDOBA",
+        "userId": 25747502
+    },
+    {
+        "accountName": "BANCO DE LA PROVINCIA DE BS AS",
+        "userId": 16451901
+    },
+    {
+        "accountName": "NACION SERVICIOS SA",
+        "userId": 9082101
+    },
+    {
+        "accountName": "NACION SERVICIOS SA",
+        "userId": 9082201
+    },
+    {
+        "accountName": "AMERICA GIS SRL",
+        "userId": 15202201
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 5719701
+    },
+    {
+        "accountName": "INTEGRAL INSUMOS S C",
+        "userId": 16930101
+    },
+    {
+        "accountName": "NACION SERVICIOS SA",
+        "userId": 13283601
+    },
+    {
+        "accountName": "TRANSPORTADORA GAS DEL NORTE",
+        "userId": 14373801
+    },
+    {
+        "accountName": "Naci\u00f3n Servicio Posnet",
+        "userId": 14977301
+    },
+    {
+        "accountName": "TECNIMAS SA",
+        "userId": 11884902
+    },
+    {
+        "accountName": "OLEIROS SA",
+        "userId": 17131701
+    },
+    {
+        "accountName": "AGUAS CORDOBESAS SA",
+        "userId": 14682802
+    },
+    {
+        "accountName": "ROSARIO BUS SA",
+        "userId": 11843702
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 18290502
+    },
+    {
+        "accountName": "N.T.B.SA",
+        "userId": 6462301
+    },
+    {
+        "accountName": "PAGO VIRTUAL DEL SUR S.A",
+        "userId": 14401701
+    },
+    {
+        "accountName": "E Y S E EUIPOS Y SISTEMAS ELEC",
+        "userId": 12238902
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 29249902
+    },
+    {
+        "accountName": "MARINOZZI ARMANDO RAUL",
+        "userId": 16094501
+    },
+    {
+        "accountName": "OLEIROS SA",
+        "userId": 11648102
+    },
+    {
+        "accountName": "24HS SA",
+        "userId": 17875502
+    },
+    {
+        "accountName": "SEGURIDAD PRIVADA KEEPER SRL",
+        "userId": 25520202
+    },
+    {
+        "accountName": "EMPRESA DISTRIBUIDORA DE ENERG",
+        "userId": 29186602
+    },
+    {
+        "accountName": "MERCADO LIBRE S.R.L.",
+        "userId": 14521801
+    },
+    {
+        "accountName": "GCBA",
+        "userId": 11700901
+    },
+    {
+        "accountName": "EDES SA",
+        "userId": 17749601
+    },
+    {
+        "accountName": "EMPRESA DISTRIBUIDORA LA PLATA",
+        "userId": 29253902
+    },
+    {
+        "accountName": "NACION SERVICIOS SA",
+        "userId": 26052402
+    },
+    {
+        "accountName": "Nacion Servicios \u2013 Soluci\u00f3n Especial LTE",
+        "userId": 26058302
+    },
+    {
+        "accountName": "BOBADILLA ALEJANDRO CESAR",
+        "userId": 15261701
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 7440102
+    },
+    {
+        "accountName": "SISTEMAS INTEGRALES DE SEGURIDAD SA",
+        "userId": 15313401
+    },
+    {
+        "accountName": "NACION SERVICIOS SA",
+        "userId": 7826302
+    },
+    {
+        "accountName": "Claro Argentina Demo",
+        "userId": 14510401
+    },
+    {
+        "accountName": "Naci\u00f3n Servicio Posnet",
+        "userId": 14921501
+    },
+    {
+        "accountName": "EMPRESA DISTRIBUIDORA DEENERGIA ATLANTIC",
+        "userId": 29197402
+    },
+    {
+        "accountName": "EMPRESA DISTRIBUIDORA DEENERGIA ATLANTIC",
+        "userId": 32450502
+    },
+    {
+        "accountName": "SIAC SEGURIDAD S.R.L.",
+        "userId": 12530302
+    },
+    {
+        "accountName": "Nacion Servicios \u2013 Soluci\u00f3n Especial LTE",
+        "userId": 9414001
+    },
+    {
+        "accountName": "NACION SERVICIOS SA",
+        "userId": 32290702
+    },
+    {
+        "accountName": "STAR SERVICIOS EMPRESARIOS S.A",
+        "userId": 12061501
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 11090801
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 6773302
+    },
+    {
+        "accountName": "Nacion Servicios \u2013 Soluci\u00f3n Especial LTE",
+        "userId": 32290602
+    },
+    {
+        "accountName": "BUGS SOLUCIONES ELECT SA",
+        "userId": 14163402
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 11852602
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 6226901
+    },
+    {
+        "accountName": "SUARTEC SA",
+        "userId": 17231001
+    },
+    {
+        "accountName": "ACRONEX S.R.L.",
+        "userId": 12866001
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 9391001
+    },
+    {
+        "accountName": "Thingco SRL",
+        "userId": 15007001
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 10051202
+    },
+    {
+        "accountName": "SITRACK.COM ARGENTINA S.A.",
+        "userId": 10842102
+    },
+    {
+        "accountName": "SITRACK.COM ARGENTINA S.A.",
+        "userId": 12499202
+    },
+    {
+        "accountName": "PROSEGUR ACTIVA ARGENTINA SA",
+        "userId": 14208202
+    },
+    {
+        "accountName": "RIESGONET S.A",
+        "userId": 14534001
+    },
+    {
+        "accountName": "MICRACEL S.A.",
+        "userId": 11735201
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 17858402
+    },
+    {
+        "accountName": "SYNKRO SA",
+        "userId": 13067901
+    },
+    {
+        "accountName": "Nacion Servicios \u2013 Soluci\u00f3n Especial LTE",
+        "userId": 11651602
+    },
+    {
+        "accountName": "ORMACHEA CARLOS EZEQUIEL",
+        "userId": 25708302
+    },
+    {
+        "accountName": "MARINOZZI ARMANDO RAUL",
+        "userId": 16094601
+    },
+    {
+        "accountName": "SECURE S.A.S.",
+        "userId": 15042301
+    },
+    {
+        "accountName": "Claro Argentina Demo",
+        "userId": 6792902
+    },
+    {
+        "accountName": "LOGSAT S.A",
+        "userId": 12295102
+    },
+    {
+        "accountName": "Claro Argentina Demo",
+        "userId": 32361802
+    },
+    {
+        "accountName": "Claro Argentina Demo",
+        "userId": 32350002
+    },
+    {
+        "accountName": "Claro Argentina Demo",
+        "userId": 10585702
+    },
+    {
+        "accountName": "MICRACEL S.A.",
+        "userId": 29161902
+    },
+    {
+        "accountName": "EDES SA",
+        "userId": 17038201
+    },
+    {
+        "accountName": "LOGISTICA DCN S.A",
+        "userId": 14772202
+    },
+    {
+        "accountName": "SUARTEC SA",
+        "userId": 7209401
+    },
+    {
+        "accountName": "SEGUIMIENTO SATELITAL S.A.S.",
+        "userId": 13013202
+    },
+    {
+        "accountName": "TCARGO S.A.",
+        "userId": 10711702
+    },
+    {
+        "accountName": "T.C. S.A.",
+        "userId": 10784302
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 6653201
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 15467201
+    },
+    {
+        "accountName": "STAR SERVICIOS EMPRESARIOS S.A",
+        "userId": 17230401
+    },
+    {
+        "accountName": "TECNIMAS SA",
+        "userId": 9222202
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 15467101
+    },
+    {
+        "accountName": "CCAdvanced Test",
+        "userId": 10789702
+    },
+    {
+        "accountName": "RODRIGUEZ GUERRERO JUAN MANUEL",
+        "userId": 17044901
+    },
+    {
+        "accountName": "JD Seguridad Integral",
+        "userId": 12384201
+    },
+    {
+        "accountName": "RIESGONET S.A",
+        "userId": 14475801
+    },
+    {
+        "accountName": "EMP. PCIAL. DE ENERGIA STA.FE",
+        "userId": 17655601
+    },
+    {
+        "accountName": "ACRONEX S.R.L.",
+        "userId": 12958801
+    },
+    {
+        "accountName": "MUNICIPALIDAD DE ROSARIO",
+        "userId": 14848401
+    },
+    {
+        "accountName": "PROTECCION TOTAL S.A.",
+        "userId": 16275501
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 25661702
+    },
+    {
+        "accountName": "Demo Digi Systems SRL",
+        "userId": 10059102
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 11680001
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 6226801
+    },
+    {
+        "accountName": "DISCAR S.A.",
+        "userId": 12636702
+    },
+    {
+        "accountName": "Claro Argentina Demo",
+        "userId": 14583101
+    },
+    {
+        "accountName": "SE\u00d1ALCO SUDAMERICANA S.A.",
+        "userId": 7523402
+    },
+    {
+        "accountName": "SEGURIDAD PRIVADA SP S.A.",
+        "userId": 14290001
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 6871402
+    },
+    {
+        "accountName": "QUADMINDS TECHNOLOGIES S.A.",
+        "userId": 8879501
+    },
+    {
+        "accountName": "NACION SERVICIOS SA",
+        "userId": 14389901
+    },
+    {
+        "accountName": "Nacion Servicios \u2013 Soluci\u00f3n Especial LTE",
+        "userId": 14390201
+    },
+    {
+        "accountName": "QUALITY SYSTEMS GROUP SRL",
+        "userId": 17811001
+    },
+    {
+        "accountName": "CENTRAL DE OP. MULTIPLES SRL",
+        "userId": 9909002
+    },
+    {
+        "accountName": "Claro Argentina M2M",
+        "userId": 7172801
+    },
+    {
+        "accountName": "OLEIROS SA",
+        "userId": 17132001
+    }
+]

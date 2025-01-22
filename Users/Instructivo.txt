@@ -1,0 +1,13 @@
+Pasos para generar el template de migración USERS
+
+1 - Obtener la lista de todos los usuarios actualizada de Jasper. Para eso, ejecutar en consola "python obtener_usuarios.py". Esto genera el archivo user.txt, que se utiliza en la siguiente instancia.
+   Advertencia: la ejecución puede demorar unos minutos.
+   Si el archivo ya existe y no desea actualizar la lista, puede omitir este paso.
+
+2 - Para buscar usuarios por cuenta, debe ejecutar en consola "python buscar_usuario_por_cuenta.py".
+   Le solicitará al usuario seleccionar el archivo base correspondiente a la ventana de migración que contiene la información de las cuentas a migrar (previamente cargado por el usuario).
+   Este programa genera el archivo "users_id.xlsx", que contiene la relación de todos los usuarios por cuenta y se utiliza para la siguiente instancia.
+
+3 - Para generar el template de migración USERS, ejecutar en consola "python generar_users.py".
+   Advertencia: la ejecución puede demorar unos minutos.
+   El template generado se guarda en el directorio C:\Migracion\Users\Template de migración con el nombre "Users_time_stamp.xlsx".
