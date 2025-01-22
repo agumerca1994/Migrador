@@ -13,18 +13,50 @@ def seleccionar_carpetas(subfolders):
         root.destroy()
         process_folders(selected_folders)
 
+    def toggle_select_all():
+        new_state = not all(var.get() for var in var_list)
+        for var in var_list:
+            var.set(new_state)
+        if new_state:
+            toggle_btn.config(text="Deseleccionar todo", fg="red")
+        else:
+            toggle_btn.config(text="Seleccionar todo", fg="black")
+
     root = tk.Tk()
     root.title("Seleccionar Carpetas")
 
+    # Centrar la ventana en la pantalla y ajustar el tamaño
+    window_width = 600
+    window_height = 400
+    screen_width = root.winfo_screenwidth()
+    screen_height = root.winfo_screenheight()
+    position_top = int(screen_height / 2 - window_height / 2)
+    position_right = int(screen_width / 2 - window_width / 2)
+    root.geometry(f'{window_width}x{window_height}+{position_right}+{position_top}')
+
+    # Configurar estilos
+    style = ttk.Style()
+    style.configure("TButton", font=("Helvetica", 12), padding=10)
+    style.configure("TCheckbutton", font=("Helvetica", 12))
+
     var_list = []
+
+    # Botón para seleccionar/deseleccionar todo
+    toggle_btn = tk.Button(root, text="Seleccionar todo", command=toggle_select_all, font=("Helvetica", 12))
+    toggle_btn.pack(anchor='w', pady=(20, 10), padx=20)  # Margen superior y laterales
+
+    # Frame para los checkboxes con margen superior
+    frame = ttk.Frame(root)
+    frame.pack(anchor='w', pady=(10, 0), padx=20)  # Margen superior y laterales
+
     for folder in subfolders:
         var = tk.BooleanVar()
-        chk = ttk.Checkbutton(root, text=folder, variable=var)
+        chk = ttk.Checkbutton(frame, text=folder, variable=var, style="TCheckbutton")
         chk.pack(anchor='w')
         var_list.append(var)
 
-    submit_btn = ttk.Button(root, text="Submit", command=on_submit)
-    submit_btn.pack()
+    submit_btn = ttk.Button(root, text="Continuar", command=on_submit, style="TButton")
+    submit_btn.pack(pady=(10, 20))  # Margen inferior
 
     root.mainloop()
 
