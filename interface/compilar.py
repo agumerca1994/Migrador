@@ -18,10 +18,10 @@ def seleccionar_carpetas(subfolders, output_folder, selected_file_name):
             global output_folder_path, output_path
             output_folder_path = output_file
             output_path = output_folder_path
-            label.config(text=f"Archivo generado: {output_path}")
+            #label.config(text=f"Archivo generado: {output_path}")
         else:
             print("No se generó ningún archivo.")
-            label.config(text="No se generó ningún archivo.")
+            #label.config(text="No se generó ningún archivo.")
 
     def toggle_select_all():
         new_state = not all(var.get() for var in var_list)
@@ -81,7 +81,7 @@ def seleccionar_carpetas(subfolders, output_folder, selected_file_name):
 # Función para procesar las carpetas seleccionadas
 def process_folders(selected_folders, output_folder, selected_file_name):
     # Ruta base
-    base_path = r"C:\\Migracion"
+    base_path = (f"../")
 
     # Crear la carpeta base si no existe
     if not os.path.exists(base_path):
@@ -141,12 +141,12 @@ def process_folders(selected_folders, output_folder, selected_file_name):
 # Función para ejecutar el merge y guardar el archivo en el directorio especificado
 def ejecutar_merge(selected_file):
     selected_file_name = os.path.splitext(os.path.basename(selected_file))[0]
-    output_folder_path = os.path.join(r"C:\\Migracion\\Template de migracion", selected_file_name)
+    output_folder_path = os.path.join(f"../Template de migracion/", selected_file_name)
 
     if not os.path.exists(output_folder_path):
         os.makedirs(output_folder_path)
 
-    subfolders = [f.name for f in os.scandir(r"C:\\Migracion") if f.is_dir() and f.name not in ['.git', 'interface', 'Template de migracion', 'ejemplo']]
+    subfolders = [f.name for f in os.scandir(f"../") if f.is_dir() and f.name not in ['.git', 'interface', 'Template de migracion', 'ejemplo']]
     
     seleccionar_carpetas(subfolders, output_folder_path, selected_file_name)
 
