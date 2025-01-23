@@ -58,7 +58,7 @@ def consultar_api_y_generar_excel(excel_file):
     excel_file_name = os.path.splitext(os.path.basename(excel_file))[0]
 
     # Directorio de salida
-    output_directory = rf"C:\\Migracion\\Account Plan\\Tempate de migracion\\{excel_file_name}"
+    output_directory = f"../Account Plan/Template de migracion/{excel_file_name}/"
     os.makedirs(output_directory, exist_ok=True)
 
     # Obtener account_ids

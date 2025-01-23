@@ -81,7 +81,7 @@ if __name__ == "__main__":
         print(f"El archivo especificado no existe: {ruta_archivo_seleccionado}")
         sys.exit(1)
 
-    directorio_base = "C:\\Migracion"
+    directorio_base = (f"../")
     
     # Extraer solo el nombre del archivo sin la ruta completa
     excel_file_name = os.path.splitext(os.path.basename(ruta_archivo_seleccionado))[0]

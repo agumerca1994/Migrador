@@ -17,7 +17,7 @@ def consultar_api_accounts(input_file):
     excel_file_name = os.path.splitext(os.path.basename(input_file))[0]
 
     # Directorio de salida
-    output_directory = rf"C:\\Migracion\\Accounts\\Tempate de migracion\\{excel_file_name}"
+    output_directory = f"../Accounts/Template de migracion/{excel_file_name}/"
     os.makedirs(output_directory, exist_ok=True)
 
     # Token de autenticación

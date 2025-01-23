@@ -49,7 +49,7 @@ def main():
         print("Por favor, proporcione la ruta del archivo seleccionado desde la interfaz de usuario como argumento.")
         return
 
-    directorio_base = "C:\\Migracion"
+    directorio_base = (f"../")
     
     # Extraer solo el nombre del archivo sin la ruta completa
     excel_file_name = os.path.splitext(os.path.basename(ruta_archivo_seleccionado))[0]

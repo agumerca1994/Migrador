@@ -1,139 +1,139 @@
-import os
-import pandas as pd
-from datetime import datetime
-from openpyxl import load_workbook
-import tkinter as tk
-from tkinter import messagebox
-from tkinter import ttk
+import json
 import sys
+import pandas as pd
+import requests
+import openpyxl
+from openpyxl.styles import Alignment, Font
+from datetime import datetime
+import os
 
-# Función para mostrar la ventana emergente y obtener la selección del usuario
-def seleccionar_carpetas(subfolders, output_folder, selected_file_name):
-    def on_submit():
-        selected_folders = [subfolders[i] for i in range(len(subfolders)) if var_list[i].get()]
-        root.destroy()
-        process_folders(selected_folders, output_folder, selected_file_name)
+# Función para obtener datos de un usuario desde la API
+def fetch_user_data(user_id, headers):
+    url = f"https://restapi1.jasper.com/rws/api/v1/users/{user_id}"
+    response = requests.get(url, headers=headers)
 
-    def toggle_select_all():
-        new_state = not all(var.get() for var in var_list)
-        for var in var_list:
-            var.set(new_state)
-        update_toggle_btn_text()
+    if response.status_code == 200:
+        data = response.json()
 
-    def update_toggle_btn_text():
-        if all(var.get() for var in var_list):
-            toggle_btn.config(text="Deseleccionar todo", fg="red")
-        else:
-            toggle_btn.config(text="Seleccionar todo", fg="black")
-
-    root = tk.Tk()
-    root.title("Seleccionar Carpetas")
-
-    # Centrar la ventana en la pantalla y ajustar el tamaño
-    window_width = 600
-    window_height = 400
-    screen_width = root.winfo_screenwidth()
-    screen_height = root.winfo_screenheight()
-    position_top = int(screen_height / 2 - window_height / 2)
-    position_right = int(screen_width / 2 - window_width / 2)
-    root.geometry(f'{window_width}x{window_height}+{position_right}+{position_top}')
-
-    # Configurar estilos
-    style = ttk.Style()
-    style.configure("TButton", font=("Helvetica", 12), padding=10)
-    style.configure("TCheckbutton", font=("Helvetica", 12))
-
-    var_list = []
-
-    # Botón para seleccionar/deseleccionar todo
-    toggle_btn = tk.Button(root, text="Seleccionar todo", command=toggle_select_all, font=("Helvetica", 12))
-    toggle_btn.pack(anchor='w', pady=(20, 10), padx=20)  # Margen superior y laterales
-
-    # Frame para los checkboxes con margen superior
-    frame = ttk.Frame(root)
-    frame.pack(anchor='w', pady=(10, 0), padx=20)  # Margen superior y laterales
-
-    for folder in subfolders:
-        var = tk.BooleanVar()
-        chk = ttk.Checkbutton(frame, text=folder, variable=var, style="TCheckbutton", command=update_toggle_btn_text)
-        chk.pack(anchor='w')
-        var_list.append(var)
-
-    submit_btn = ttk.Button(root, text="Continuar", command=on_submit, style="TButton")
-    submit_btn.pack(pady=(10, 20))  # Margen inferior
-
-    root.mainloop()
-
-# Función para procesar las carpetas seleccionadas
-def process_folders(selected_folders, output_folder, selected_file_name):
-    # Ruta base
-    base_path = r"C:\\Migracion"
-
-    # Crear la carpeta de salida si no existe
-    if not os.path.exists(output_folder):
-        os.makedirs(output_folder)
-
-    # Nombre del archivo final  
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    output_file = os.path.join(output_folder, f"template_de_migracion_{timestamp}.xlsx")
-
-    sheet_added = False
-
-    # Crear un libro de Excel
-    with pd.ExcelWriter(output_file, engine="openpyxl") as writer:
-        for subfolder in selected_folders:
-            folder_path = os.path.join(base_path, subfolder, "Template de migracion", selected_file_name)
-            
-            # Verificar si existe el directorio "Template de migracion"
-            if os.path.exists(folder_path):
-                # Obtener la lista de archivos .xlsx
-                xlsx_files = [f for f in os.listdir(folder_path) if f.endswith(".xlsx")]
-                
-                if xlsx_files:
-                    # Ajustar nombres de archivos según subcarpeta
-                    if subfolder == "Account Plan":
-                        xlsx_files = [f for f in xlsx_files if f.startswith("Account_Plan_")]
-                    
-                    # Obtener el archivo más reciente
-                    if xlsx_files:  # Asegurarse de que la lista no esté vacía después del filtro
-                        xlsx_files.sort(key=lambda f: os.path.getmtime(os.path.join(folder_path, f)), reverse=True)
-                        latest_file = xlsx_files[0]
-                        print(f"Archivo más reciente en {subfolder}: {latest_file}")
-
-                        # Leer el archivo y agregarlo al libro final
-                        try:
-                            df = pd.read_excel(os.path.join(folder_path, latest_file), engine='openpyxl')
-                            sheet_name = subfolder[:31]  # Limitar a 31 caracteres para nombres de hoja en Excel
-                            df.to_excel(writer, sheet_name=sheet_name, index=False)
-                            sheet_added = True
-                        except Exception as e:
-                            print(f"Advertencia: Error procesando {latest_file} en {subfolder}: {e}")
-                else:
-                    print(f"Advertencia: No se encontraron archivos .xlsx en {folder_path}")
-            else:
-                print(f"Advertencia: Carpeta no encontrada: {subfolder}")
-
-    if not sheet_added:
-        print("Advertencia: No se añadieron hojas al archivo Excel porque no se encontraron datos válidos.")
-        os.remove(output_file)  # Eliminar el archivo vacío
-
-# Función para ejecutar el merge y guardar el archivo en el directorio especificado
-def ejecutar_merge(selected_file):
-    output_folder_name = os.path.splitext(os.path.basename(selected_file))[0]
-    output_folder_path = os.path.join(r"C:\\Migracion\\Template de migracion", output_folder_name)
-
-    if not os.path.exists(output_folder_path):
-        os.makedirs(output_folder_path)
-
-    subfolders = [f.name for f in os.scandir(r"C:\\Migracion") if f.is_dir() and f.name not in ['.git', 'interface', 'Template de migracion','ejemplo']]
-    
-    seleccionar_carpetas(subfolders, output_folder_path, output_folder_name)
-
-# Punto de entrada principal
-if __name__ == "__main__":
-    if len(sys.argv) > 1:  # Verifica si se pasó un archivo como argumento
-        selected_file = sys.argv[1]
-        ejecutar_merge(selected_file)
+        # Filtrar los campos no deseados
+        fields_to_remove = [
+            "userId", "accountId", "operatorName", "operatorId", "status",
+            "userLocked", "accessType", "language", "customerName", "customerId",
+            "customerGroup", "accountGroup", "lastLogin", "lastPasswordResetDate",
+            "passwordExpirationInDays", "liveUpdateEnabled", "dateAdded", "dateModified"
+        ]
+        return {key: value for key, value in data.items() if key not in fields_to_remove}
     else:
-        print("Error: No se proporcionó un archivo base. Usa: python script.py <ruta_del_archivo>")
-        sys.exit(1)
+        print(f"Error al obtener datos para el usuario {user_id}: {response.status_code} - {response.text}")
+        return None
+
+# Función para exportar datos a un archivo Excel
+def export_to_excel(users_data, file_name, selected_file):
+    if not file_name.endswith(".xlsx"):
+        file_name += ".xlsx"
+
+    workbook = openpyxl.Workbook()
+    sheet = workbook.active
+    sheet.title = "API Data"
+
+    # Ordenar y renombrar los campos restantes
+    ordered_fields = [
+        ("User Type (M)", "User Type (M)"),
+        ("User Category (M)", "User Category (M)"),
+        ("accountName", "Account (M)"),
+        ("username", "User Name (M)"),
+        ("firstName", "First Name (M)"),
+        ("lastName", "Last Name (M)"),
+        ("phone", "Primary Phone (M)"),
+        ("Secondary Phone", "Secondary Phone"),
+        ("email", "Email Address (M)"),
+        ("email", "Confirm Email Address (M)"),
+        ("roleName", "Role (M)"),
+        ("User Lock (M)", "User Lock (M)"),
+        ("Country (M)", "Country (M)"),
+        ("timeZone", "Time Zone (M)"),
+    ]
+
+    fixed_values = {
+        "User Type (M)": "Platform User",
+        "User Category (M)": "Normal User",
+        "Role (M)": "ACCOUNTADMIN",
+        "User Lock (M)": "No",
+        "Country (M)": "Argentina",
+        "Time Zone (M)": "Buenos Aires Georgetown"
+    }
+
+    # Escribir encabezados
+    for col_num, (_, header) in enumerate(ordered_fields, start=1):
+        cell = sheet.cell(row=1, column=col_num, value=header)
+        cell.font = Font(bold=True)
+        cell.alignment = Alignment(horizontal="center")
+
+    # Escribir datos de los usuarios
+    for row_num, user_data in enumerate(users_data, start=2):
+        for col_num, (key, header) in enumerate(ordered_fields, start=1):
+            value = fixed_values.get(header, user_data.get(key, ""))
+            sheet.cell(row=row_num, column=col_num, value=value)
+
+    # Ajustar el ancho de las columnas
+    for column in sheet.columns:
+        max_length = 0
+        column_letter = column[0].column_letter
+        for cell in column:
+            try:
+                if cell.value:
+                    max_length = max(max_length, len(str(cell.value)))
+            except:
+                pass
+        adjusted_width = max_length + 2
+        sheet.column_dimensions[column_letter].width = adjusted_width
+
+    # Definir el directorio de destino
+    excel_file_name = os.path.splitext(os.path.basename(selected_file))[0]
+    directory = (f"../Users/Template de migracion/{excel_file_name}/")
+    os.makedirs(directory, exist_ok=True)
+
+    # Guardar el archivo Excel en el directorio con timestamp
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    file_name = f"Users_{timestamp}.xlsx"
+    file_path = os.path.join(directory, file_name)
+
+    workbook.save(file_path)
+    print(f"Datos exportados exitosamente a {file_path}")
+
+def main():
+    if len(sys.argv) > 1:
+        selected_file = sys.argv[1]
+    else:
+        selected_file = "Cluster.xlsx"  # Valor por defecto
+        print("No se proporcionó ningún archivo. Usando el archivo seleccionado por defecto.")
+    
+    print(f"Archivo seleccionado: {selected_file}")
+
+    # Leer el archivo Excel "resultados_user_ids.xlsx"
+    input_file = (f"../Users/users_id.xlsx")
+    try:
+        data = pd.read_excel(input_file, usecols=[1], header=0)  # Leer solo la columna B
+        user_ids = data.iloc[1:, 0].dropna().astype(str).str.strip().tolist()  # Desde fila 2 hasta la última con datos
+
+        headers = {
+            "Accept": "application/json",
+            "Authorization": "Basic YWJ1c3RhbWFudGU6ODhiZGNjZTQtZGYwOS00MTIyLThiNjgtMTcxZDM1N2EzZTdl"
+        }
+
+        # Obtener datos de los usuarios
+        users_data = [fetch_user_data(user_id, headers) for user_id in user_ids]
+        users_data = [data for data in users_data if data is not None]  # Filtrar errores
+
+        if users_data:
+            export_to_excel(users_data, "Users", selected_file)  # Pasar selected_file como argumento
+        else:
+            print("No se obtuvieron datos válidos para exportar.")
+    except FileNotFoundError:
+        print(f"El archivo '{input_file}' no se encontró. Verifique el nombre y la ubicación del archivo.")
+    except Exception as e:
+        print(f"Ocurrió un error inesperado: {e}")
+
+# Inicio del script
+if __name__ == "__main__":
+    main()
