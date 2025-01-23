@@ -82,7 +82,11 @@ if __name__ == "__main__":
         sys.exit(1)
 
     directorio_base = "C:\\Migracion"
-    directorio_template = os.path.join(directorio_base, "Service Plan", "Template de migracion")
+    
+    # Extraer solo el nombre del archivo sin la ruta completa
+    excel_file_name = os.path.splitext(os.path.basename(ruta_archivo_seleccionado))[0]
+    
+    directorio_template = os.path.join(directorio_base, "Service Plan", "Template de migracion", excel_file_name)
     directorio_bd = os.path.join(directorio_base, "Service Plan")
 
     if not os.path.exists(directorio_template):

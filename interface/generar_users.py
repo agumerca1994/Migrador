@@ -5,6 +5,7 @@ import openpyxl
 from openpyxl.styles import Alignment, Font
 from datetime import datetime
 import os
+import sys
 
 # Función para obtener datos de un usuario desde la API
 def fetch_user_data(user_id, headers):
@@ -27,7 +28,7 @@ def fetch_user_data(user_id, headers):
         return None
 
 # Función para exportar datos a un archivo Excel
-def export_to_excel(users_data, file_name):
+def export_to_excel(users_data, file_name, user_selected_file):
     if not file_name.endswith(".xlsx"):
         file_name += ".xlsx"
 
@@ -87,8 +88,8 @@ def export_to_excel(users_data, file_name):
         adjusted_width = max_length + 2
         sheet.column_dimensions[column_letter].width = adjusted_width
 
-    # Definir el directorio de destino
-    directory = r"C:\Migracion\Users\Template de migracion"
+    # Definir el directorio de destino basado en el archivo seleccionado por el usuario
+    directory = os.path.join(r"C:\Migracion\Users\Template de migracion", os.path.splitext(user_selected_file)[0])
     os.makedirs(directory, exist_ok=True)
 
     # Guardar el archivo Excel en el directorio con timestamp
@@ -101,6 +102,16 @@ def export_to_excel(users_data, file_name):
 
 # Inicio del script
 if __name__ == "__main__":
+    if len(sys.argv) != 3:
+        print("Uso: python script.py <nombre_del_archivo_seleccionado_por_el_usuario> <directorio_de_salida>")
+        sys.exit(1)
+
+    user_selected_file = sys.argv[1]
+    output_folder = sys.argv[2]
+    
+    print(f"Archivo seleccionado por el usuario: {user_selected_file}")
+    print(f"Directorio de salida: {output_folder}")
+
     # Leer el archivo Excel "resultados_user_ids.xlsx"
     input_file = r"C:\Migracion\Users\users_id.xlsx"
     try:
@@ -117,7 +128,7 @@ if __name__ == "__main__":
         users_data = [data for data in users_data if data is not None]  # Filtrar errores
 
         if users_data:
-            export_to_excel(users_data, "Users")  # El nombre del archivo se generará automáticamente
+            export_to_excel(users_data, user_selected_file, output_folder)  # El nombre del archivo se generará automáticamente
         else:
             print("No se obtuvieron datos válidos para exportar.")
     except FileNotFoundError:

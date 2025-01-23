@@ -135,7 +135,7 @@ try:
     label_icon.image = icon_image  # Mantener referencia para evitar el recolector de basura
     label_icon.pack(side=tk.RIGHT, padx=5)
 except Exception as e:
-    output_text.insert(tk.END, f"Error al cargar la imagen: {e}\n")  # Mostrar error en el área de salida
+    output_text.insert(tk.END, f"Error al cargar la imagen: {e}\n")  # type: ignore # Mostrar error en el área de salida
 
 # Crear un Label con texto en negrita y alineado a la izquierda
 label_select_file = tk.Label(frame_file, text="Seleccione un archivo según la ventana de migración que corresponda", font=("Arial", 12, "bold"), anchor="w")
@@ -169,10 +169,10 @@ def create_button(text, script_name):
 
 # Crear botones para cada script y sus etiquetas
 labels = {
-    "ACCOUNT_PLAN": create_button("Account Plan", "generar_account_plan.py"),
-    "ACCOUNT": create_button("Account", "generar_account.py"),
+    "Account Plan": create_button("Account Plan", "generar_account_plan.py"),
+    "Account": create_button("Account", "generar_account.py"),
     "APN": create_button("APN", "generar_apn.py"),
-    "ROLES": create_button("Roles", "generar_roles.py"),
+    "Roles": create_button("Roles", "generar_roles.py"),
     "SIM Product Type": create_button("SIM Product Type", "generar_sim_pdt.py"),
     "Users": create_button("Users", "generar_users.py"),
     "Zones Management": create_button("Zones Management", "generar_zones.py"),

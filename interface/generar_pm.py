@@ -8,7 +8,7 @@ def generar_archivo_pm(ruta_archivo_seleccionado):
     account_names = datos_seleccionados.iloc[1:, 1].dropna().tolist()  # Columna B desde fila 2
 
     # Leer datos del archivo Roles.xlsx
-    ruta_bd = r'C:\Migracion\Price Model\bd.xlsx'
+    ruta_bd = r'C:\\Migracion\\Price Model\\bd.xlsx'
     datos_pm = pd.read_excel(ruta_bd)
 
     # Preparar el nuevo DataFrame
@@ -36,8 +36,14 @@ def generar_archivo_pm(ruta_archivo_seleccionado):
 
     # Crear el nuevo archivo con timestamp
     timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-    directorio_salida = r'C:\Migracion\Price Model\Template de migracion'
+    
+    # Extraer solo el nombre del archivo sin la ruta completa
+    excel_file_name = os.path.splitext(os.path.basename(ruta_archivo_seleccionado))[0]
+    
+    # Directorio de salida
+    directorio_salida = rf'C:\\Migracion\\Price Model\\Template de migracion\\{excel_file_name}'
     os.makedirs(directorio_salida, exist_ok=True)
+    
     archivo_salida = os.path.join(directorio_salida, f"Price_Model_{timestamp}.xlsx")
     nuevo_df.to_excel(archivo_salida, index=False)
 

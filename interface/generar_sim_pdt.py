@@ -50,7 +50,11 @@ def main():
         return
 
     directorio_base = "C:\\Migracion"
-    directorio_roles = os.path.join(directorio_base, "SIM Product Type", "Template de migracion")
+    
+    # Extraer solo el nombre del archivo sin la ruta completa
+    excel_file_name = os.path.splitext(os.path.basename(ruta_archivo_seleccionado))[0]
+    
+    directorio_roles = os.path.join(directorio_base, "SIM Product Type", "Template de migracion", excel_file_name)
     directorio_sim = os.path.join(directorio_base, "SIM Product Type")
 
     if not os.path.exists(directorio_roles):

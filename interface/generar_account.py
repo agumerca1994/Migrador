@@ -11,7 +11,14 @@ def consultar_api_accounts(input_file):
     y guarda el resultado completo de la API con los campos específicos en el archivo Excel.
     """
     # Directorio de salida
-    output_directory = r"C:\Migracion\Accounts\Template de migracion"
+    #output_directory = r"C:\Migracion\Accounts\Template de migracion"
+
+    # Extraer solo el nombre del archivo sin la ruta completa
+    excel_file_name = os.path.splitext(os.path.basename(input_file))[0]
+
+    # Directorio de salida
+    output_directory = rf"C:\\Migracion\\Accounts\\Tempate de migracion\\{excel_file_name}"
+    os.makedirs(output_directory, exist_ok=True)
 
     # Token de autenticación
     token = "Basic YWJ1c3RhbWFudGU6ODhiZGNjZTQtZGYwOS00MTIyLThiNjgtMTcxZDM1N2EzZTdl"

@@ -6,10 +6,25 @@ from openpyxl import load_workbook, Workbook
 # Variables globales
 archivo_generado_apn = ""  # Ruta del archivo generado como salida
 selected_file = ""  # Archivo base seleccionado por la interfaz de usuario
-archivo_bd = r"C:\Migracion\APN\bd.xlsx"  # Ruta del archivo BD con datos principales
-output_directory = r"C:\Migracion\APN\Template de migracion"  # Directorio donde se guardará el archivo generado
-cuentas_procesadas = []  # Lista para registrar las cuentas procesadas durante la ejecución
 
+# El argumento recibido desde la interfaz de usuario es el archivo seleccionado por el usuario
+if len(sys.argv) > 1:
+    selected_file = sys.argv[1]
+else:
+    print("Error: No se proporcionó un archivo base. Usa: python script.py <ruta_del_archivo>")
+    sys.exit(1)
+
+# Extraer solo el nombre del archivo sin la ruta completa
+excel_file_name = os.path.splitext(os.path.basename(selected_file))[0]
+
+# Directorio de salida
+output_directory_template = rf"C:\\Migracion\\APN\\Template de migracion\\{excel_file_name}"
+
+# Crear directorio de salida si no existe
+os.makedirs(output_directory_template, exist_ok=True)
+
+archivo_bd = r"C:\Migracion\APN\bd.xlsx"  # Ruta del archivo BD con datos principales
+cuentas_procesadas = []  # Lista para registrar las cuentas procesadas durante la ejecución
 
 # Función para obtener la lista de "Accountnames" desde un archivo Excel
 def obtener_accountnames(ruta_archivo):
@@ -28,26 +43,21 @@ def obtener_accountnames(ruta_archivo):
             accountnames.append(row[0])
     return accountnames
 
-
 # Función para generar el archivo Excel de salida basado en coincidencias
-def generar_apn_excel(coincidencias, archivo_bd, output_dir):
+def generar_apn_excel(coincidencias, archivo_bd, output_dir_template):
     """
     Genera un archivo Excel con los datos de las coincidencias entre el archivo base y la BD.
     
     :param coincidencias: Diccionario con las coincidencias encontradas.
     :param archivo_bd: Ruta del archivo BD con datos principales.
-    :param output_dir: Directorio de salida para guardar el archivo generado.
+    :param output_dir_template: Directorio de salida para guardar el archivo generado en Template de migracion.
     :return: Ruta del archivo generado.
     """
     global archivo_generado_apn, cuentas_procesadas
 
-    # Verifica si el directorio de salida existe; si no, lo crea
-    if not os.path.exists(output_dir):
-        os.makedirs(output_dir)
-
     # Genera un nombre único para el archivo de salida basado en la fecha y hora actuales
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    output_path = os.path.join(output_dir, f"APN_{timestamp}.xlsx")
+    output_path_template = os.path.join(output_dir_template, f"APN_{timestamp}.xlsx")
 
     # Carga el archivo de BD y lee los datos
     bd_wb = load_workbook(archivo_bd, data_only=True)
@@ -102,18 +112,18 @@ def generar_apn_excel(coincidencias, archivo_bd, output_dir):
                 ])
                 apn_id += 1
 
-    # Guarda el archivo generado
-    wb.save(output_path)
-    archivo_generado_apn = output_path  # Actualiza la variable global con la ruta del archivo generado
-    return output_path
-
+    # Guarda el archivo generado en el directorio de salida Template de migracion
+    wb.save(output_path_template)
+    
+    archivo_generado_apn = output_path_template  # Actualiza la variable global con la ruta del archivo generado
+    return output_path_template
 
 # Función principal para procesar el archivo seleccionado
 def procesar_archivo():
     """
     Procesa el archivo seleccionado, encuentra coincidencias y genera un archivo de salida.
     """
-    global selected_file, archivo_bd, output_directory
+    global selected_file, archivo_bd, output_directory_template
 
     if not selected_file:  # Verifica si se ha seleccionado un archivo
         print("No se ha seleccionado un archivo base.")
@@ -136,11 +146,10 @@ def procesar_archivo():
     # Genera el archivo de salida si hay coincidencias
     if coincidencias:
         print(f"Iniciando la consulta de {len(coincidencias)} account_ids...")
-        output_file = generar_apn_excel(coincidencias, archivo_bd, output_directory)
+        output_file = generar_apn_excel(coincidencias, archivo_bd, output_directory_template)
         print(f"Los resultados se han guardado en '{output_file}'.")
     else:
         print("No se encontraron coincidencias entre los Accountname.")
-
 
 # Punto de entrada principal
 if __name__ == "__main__":
