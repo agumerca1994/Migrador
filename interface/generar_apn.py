@@ -18,12 +18,12 @@ else:
 excel_file_name = os.path.splitext(os.path.basename(selected_file))[0]
 
 # Directorio de salida
-output_directory_template = rf"C:\\Migracion\\APN\\Template de migracion\\{excel_file_name}"
+output_directory_template = f"../APN/Template de migracion/{excel_file_name}/"
 
 # Crear directorio de salida si no existe
 os.makedirs(output_directory_template, exist_ok=True)
 
-archivo_bd = r"C:\Migracion\APN\bd.xlsx"  # Ruta del archivo BD con datos principales
+archivo_bd = f"../APN/bd.xlsx"  # Ruta del archivo BD con datos principales
 cuentas_procesadas = []  # Lista para registrar las cuentas procesadas durante la ejecución
 
 # Función para obtener la lista de "Accountnames" desde un archivo Excel

@@ -17,7 +17,7 @@ def procesar_archivo_zonas(ruta_archivo_seleccionado):
     sheet = wb.active
 
     # Crear un directorio para guardar el archivo de salida si no existe
-    directorio_destino = r"C:\Migracion\Zone Management\Template de migracion"
+    directorio_destino = f"../Zone Management/Template de migracion/{excel_file_name}/"
     if not os.path.exists(directorio_destino):
         os.makedirs(directorio_destino)
 
@@ -68,6 +68,7 @@ if __name__ == "__main__":
         sys.exit(1)
 
     ruta_archivo_seleccionado = sys.argv[1]
+    excel_file_name = os.path.splitext(os.path.basename(ruta_archivo_seleccionado))[0]
 
     if os.path.exists(ruta_archivo_seleccionado):
         procesar_archivo_zonas(ruta_archivo_seleccionado)

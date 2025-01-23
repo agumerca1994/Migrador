@@ -5,13 +5,23 @@ from openpyxl import load_workbook
 import tkinter as tk
 from tkinter import messagebox
 from tkinter import ttk
+import sys
 
 # Función para mostrar la ventana emergente y obtener la selección del usuario
-def seleccionar_carpetas(subfolders, output_folder):
+def seleccionar_carpetas(subfolders, output_folder, selected_file_name):
     def on_submit():
         selected_folders = [subfolders[i] for i in range(len(subfolders)) if var_list[i].get()]
         root.destroy()
-        process_folders(selected_folders, output_folder)
+        output_file = process_folders(selected_folders, output_folder, selected_file_name)
+        if output_file:
+            print(f"Archivo generado: {output_file}")
+            global output_folder_path, output_path
+            output_folder_path = output_file
+            output_path = output_folder_path
+            label.config(text=f"Archivo generado: {output_path}")
+        else:
+            print("No se generó ningún archivo.")
+            label.config(text="No se generó ningún archivo.")
 
     def toggle_select_all():
         new_state = not all(var.get() for var in var_list)
@@ -46,11 +56,11 @@ def seleccionar_carpetas(subfolders, output_folder):
 
     # Botón para seleccionar/deseleccionar todo
     toggle_btn = tk.Button(root, text="Seleccionar todo", command=toggle_select_all, font=("Helvetica", 12))
-    toggle_btn.pack(anchor='w', pady=(20, 10), padx=20)  # Margen superior y laterales
+    toggle_btn.pack(anchor='w', pady=(20, 10), padx=20)
 
     # Frame para los checkboxes con margen superior
     frame = ttk.Frame(root)
-    frame.pack(anchor='w', pady=(10, 0), padx=20)  # Margen superior y laterales
+    frame.pack(anchor='w', pady=(10, 0), padx=20)
 
     for folder in subfolders:
         var = tk.BooleanVar()
@@ -58,15 +68,24 @@ def seleccionar_carpetas(subfolders, output_folder):
         chk.pack(anchor='w')
         var_list.append(var)
 
+# Configurar estilos
+    style = ttk.Style()
+    style.configure("TButton", font=("Helvetica", 12), padding=(10, 10), anchor="center")
+
+    # Crear el botón de "Continuar" con el estilo actualizado
     submit_btn = ttk.Button(root, text="Continuar", command=on_submit, style="TButton")
-    submit_btn.pack(pady=(10, 20))  # Margen inferior
+    submit_btn.pack(pady=(10, 20), ipadx=10, ipady=10)
 
     root.mainloop()
 
 # Función para procesar las carpetas seleccionadas
-def process_folders(selected_folders, output_folder):
+def process_folders(selected_folders, output_folder, selected_file_name):
     # Ruta base
     base_path = r"C:\\Migracion"
+
+    # Crear la carpeta base si no existe
+    if not os.path.exists(base_path):
+        os.makedirs(base_path)
 
     # Crear la carpeta de salida si no existe
     if not os.path.exists(output_folder):
@@ -76,10 +95,12 @@ def process_folders(selected_folders, output_folder):
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     output_file = os.path.join(output_folder, f"template_de_migracion_{timestamp}.xlsx")
 
+    sheet_added = False
+
     # Crear un libro de Excel
     with pd.ExcelWriter(output_file, engine="openpyxl") as writer:
         for subfolder in selected_folders:
-            folder_path = os.path.join(base_path, subfolder, "Template de migracion")
+            folder_path = os.path.join(base_path, subfolder, "Template de migracion", selected_file_name)
             
             # Verificar si existe el directorio "Template de migracion"
             if os.path.exists(folder_path):
@@ -102,43 +123,46 @@ def process_folders(selected_folders, output_folder):
                             df = pd.read_excel(os.path.join(folder_path, latest_file), engine='openpyxl')
                             sheet_name = subfolder[:31]  # Limitar a 31 caracteres para nombres de hoja en Excel
                             df.to_excel(writer, sheet_name=sheet_name, index=False)
+                            sheet_added = True
                         except Exception as e:
-                            print(f"Error procesando {latest_file} en {subfolder}: {e}")
+                            print(f"Advertencia: Error procesando {latest_file} en {subfolder}: {e}")
+                else:
+                    print(f"Advertencia: No se encontraron archivos .xlsx en {folder_path}")
             else:
                 print(f"Advertencia: Carpeta no encontrada: {subfolder}")
 
-    # Ajustar el ancho de las columnas al contenido en cada hoja
-    wb = load_workbook(output_file)
-    for sheet in wb.sheetnames:
-        ws = wb[sheet]
-        for col in ws.columns:
-            max_length = 0
-            column = col[0].column_letter  # Obtener la letra de la columna
-            for cell in col:
-                try:
-                    if len(str(cell.value)) > max_length:
-                        max_length = len(cell.value)
-                except:
-                    pass
-            adjusted_width = (max_length + 2)
-            ws.column_dimensions[column].width = adjusted_width
+    if not sheet_added:
+        print("Advertencia: No se añadieron hojas al archivo Excel porque no se encontraron datos válidos.")
+        os.remove(output_file)  # Eliminar el archivo vacío
+        return None
 
-    wb.save(output_file)
-
-    print(f"Archivo consolidado generado en: {output_file}")
+    return output_file
 
 # Función para ejecutar el merge y guardar el archivo en el directorio especificado
 def ejecutar_merge(selected_file):
-    output_folder_name = os.path.splitext(os.path.basename(selected_file))[0]
-    output_folder_path = os.path.join(r"C:\\Migracion\\Template de migracion", output_folder_name)
+    selected_file_name = os.path.splitext(os.path.basename(selected_file))[0]
+    output_folder_path = os.path.join(r"C:\\Migracion\\Template de migracion", selected_file_name)
 
     if not os.path.exists(output_folder_path):
         os.makedirs(output_folder_path)
 
-    subfolders = [f.name for f in os.scandir(r"C:\\Migracion") if f.is_dir() and f.name not in ['.git', 'interface', 'Template de migracion']]
+    subfolders = [f.name for f in os.scandir(r"C:\\Migracion") if f.is_dir() and f.name not in ['.git', 'interface', 'Template de migracion', 'ejemplo']]
     
-    seleccionar_carpetas(subfolders, output_folder_path)
+    seleccionar_carpetas(subfolders, output_folder_path, selected_file_name)
 
-# Ejemplo de llamada a la función ejecutar_merge con el archivo seleccionado por el usuario (selected_file)
-selected_file_example = "C:\\Migracion\\Cluster1.xlsx"
-ejecutar_merge(selected_file_example)
+# Punto de entrada principal
+if __name__ == "__main__":
+    global output_folder_path, output_path
+    output_folder_path = None
+    
+    if len(sys.argv) > 1:  # Verifica si se pasó un archivo como argumento
+        selected_file = sys.argv[1]
+        ejecutar_merge(selected_file)
+        
+        output_path = output_folder_path
+        
+        print(f"La ruta del archivo generado es: {output_path}")
+        
+    else:
+        print("Error: No se proporcionó un archivo base. Usa: python script.py <ruta_del_archivo>")
+        sys.exit(1)

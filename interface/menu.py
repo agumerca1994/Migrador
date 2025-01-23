@@ -186,7 +186,35 @@ frame_merge = tk.LabelFrame(frame_right, text="Generar merge de migración", pad
 frame_merge.pack(fill=tk.X, pady=10)
 
 def ejecutar_merge():
-    ejecutar_generar_script("compilar.py", label_file_merge)
+    global selected_file, output_folder
+    if not selected_file:
+        messagebox.showwarning("Archivo no seleccionado", "Por favor, selecciona un archivo primero.")
+        return
+
+    progress_bar.pack(fill=tk.X, pady=10)
+    hilo = threading.Thread(target=_ejecutar_merge_script)
+    hilo.start()
+
+def _ejecutar_merge_script():
+    global selected_file, output_folder
+    try:
+        message_queue.put(("start_progress",))
+        script_path = os.path.join(r"C:\\Migracion\\interface", "compilar.py")
+
+        if not os.path.exists(script_path):
+            message_queue.put(("error", "El script compilar.py no se encuentra en la ruta especificada."))
+            return
+
+        result = subprocess.run(["python", script_path, selected_file], capture_output=True, text=True)
+        output = result.stdout.strip()
+        error = result.stderr.strip()
+
+        message_queue.put(("update_output", output, error, label_file_merge, os.path.basename(output) if output else "Ninguno"))
+
+    except Exception as e:
+        message_queue.put(("error", f"Error al ejecutar el script: {e}"))
+    finally:
+        message_queue.put(("stop_progress",))
 
 button_select_file_merge = tk.Button(frame_merge, text="Merge", font=("Arial", 12), command=ejecutar_merge, state=tk.DISABLED)  # Inicialmente deshabilitado
 button_select_file_merge.pack(side=tk.LEFT, padx=5)
