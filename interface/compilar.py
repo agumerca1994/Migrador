@@ -18,10 +18,8 @@ def seleccionar_carpetas(subfolders, output_folder, selected_file_name):
             global output_folder_path, output_path
             output_folder_path = output_file
             output_path = output_folder_path
-            #label.config(text=f"Archivo generado: {output_path}")
         else:
             print("No se generó ningún archivo.")
-            #label.config(text="No se generó ningún archivo.")
 
     def toggle_select_all():
         new_state = not all(var.get() for var in var_list)
@@ -35,17 +33,13 @@ def seleccionar_carpetas(subfolders, output_folder, selected_file_name):
         else:
             toggle_btn.config(text="Seleccionar todo", fg="black")
 
-    root = tk.Tk()
-    root.title("Seleccionar Carpetas")
+    def on_closing():
+        global window_closed
+        window_closed = True
+        root.destroy()
 
-    # Centrar la ventana en la pantalla y ajustar el tamaño
-    window_width = 600
-    window_height = 400
-    screen_width = root.winfo_screenwidth()
-    screen_height = root.winfo_screenheight()
-    position_top = int(screen_height / 2 - window_height / 2)
-    position_right = int(screen_width / 2 - window_width / 2)
-    root.geometry(f'{window_width}x{window_height}+{position_right}+{position_top}')
+    root = tk.Tk()
+    root.title("Seleccionar las carpetas para generar el merge de migración")
 
     # Configurar estilos
     style = ttk.Style()
@@ -54,13 +48,9 @@ def seleccionar_carpetas(subfolders, output_folder, selected_file_name):
 
     var_list = []
 
-    # Botón para seleccionar/deseleccionar todo
-    toggle_btn = tk.Button(root, text="Seleccionar todo", command=toggle_select_all, font=("Helvetica", 12))
-    toggle_btn.pack(anchor='w', pady=(20, 10), padx=20)
-
     # Frame para los checkboxes con margen superior
     frame = ttk.Frame(root)
-    frame.pack(anchor='w', pady=(10, 0), padx=20)
+    frame.grid(row=1, column=0, sticky="nsew", padx=20, pady=(10, 0))
 
     for folder in subfolders:
         var = tk.BooleanVar()
@@ -68,13 +58,33 @@ def seleccionar_carpetas(subfolders, output_folder, selected_file_name):
         chk.pack(anchor='w')
         var_list.append(var)
 
-# Configurar estilos
-    style = ttk.Style()
-    style.configure("TButton", font=("Helvetica", 12), padding=(10, 10), anchor="center")
+    # Botón para seleccionar/deseleccionar todo
+    toggle_btn = ttk.Button(root, text="Seleccionar todo", command=toggle_select_all, style="TButton")
+    toggle_btn.grid(row=0, column=0, sticky="w", pady=(20, 10), padx=20)
 
     # Crear el botón de "Continuar" con el estilo actualizado
     submit_btn = ttk.Button(root, text="Continuar", command=on_submit, style="TButton")
-    submit_btn.pack(pady=(10, 20), ipadx=10, ipady=10)
+    submit_btn.grid(row=2, column=0, pady=(10, 20))
+
+    # Ajustar el tamaño de la ventana según el contenido
+    root.update_idletasks()
+    window_width = 600  # Ancho fijo
+    window_height = root.winfo_height()  # Altura dinámica
+    screen_width = root.winfo_screenwidth()
+    screen_height = root.winfo_screenheight()
+    position_top = int(screen_height / 2 - window_height / 2)
+    position_right = int(screen_width / 2 - window_width / 2)
+    root.geometry(f'{window_width}x{window_height}+{position_right}+{position_top}')
+    root.minsize(window_width, window_height)
+
+    # Centrar el botón "Continuar" respecto al tamaño de la ventana
+    submit_btn.update_idletasks()
+    button_width = submit_btn.winfo_width()
+    button_position = (window_width - button_width) // 2
+    submit_btn.grid_configure(padx=button_position)
+
+    # Evitar mensaje de salida al cerrar la ventana
+    root.protocol("WM_DELETE_WINDOW", on_closing)
 
     root.mainloop()
 
@@ -152,16 +162,17 @@ def ejecutar_merge(selected_file):
 
 # Punto de entrada principal
 if __name__ == "__main__":
-    global output_folder_path, output_path
+    global output_folder_path, output_path, window_closed
     output_folder_path = None
+    window_closed = False
     
     if len(sys.argv) > 1:  # Verifica si se pasó un archivo como argumento
         selected_file = sys.argv[1]
         ejecutar_merge(selected_file)
         
-        output_path = output_folder_path
-        
-        print(f"La ruta del archivo generado es: {output_path}")
+        if not window_closed:
+            output_path = output_folder_path
+            print(f"La ruta del archivo generado es: {output_path}")
         
     else:
         print("Error: No se proporcionó un archivo base. Usa: python script.py <ruta_del_archivo>")
