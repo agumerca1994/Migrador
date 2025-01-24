@@ -16,7 +16,7 @@ message_queue = queue.Queue()
 # Permite al usuario seleccionar un archivo .xlsx desde el directorio especificado
 def seleccionar_archivo():
     global selected_file, output_folder
-    directorio = r"C:\\Migracion"
+    directorio = (f"../")
     archivo = filedialog.askopenfilename(
         initialdir=directorio,
         title="Seleccionar archivo según ventana de migración que corresponda",
@@ -31,7 +31,7 @@ def seleccionar_archivo():
         
         # Crear carpeta de salida si no existe
         output_folder_name = os.path.splitext(os.path.basename(archivo))[0]
-        output_folder_path = os.path.join(r"C:\\Migracion\\Template de migracion", output_folder_name)
+        output_folder_path = os.path.join(f"/Template de migracion/", output_folder_name)
         
         if not os.path.exists(output_folder_path):
             os.makedirs(output_folder_path)
@@ -59,7 +59,7 @@ def _ejecutar_script(script_name, label, selected_file):
     global output_folder
     try:
         message_queue.put(("start_progress",))
-        script_path = os.path.join(r"C:\\Migracion\\interface", script_name)
+        script_path = os.path.join(f"/interface", script_name)
 
         if not os.path.exists(script_path):
             message_queue.put(("error", f"El script {script_name} no se encuentra en la ruta especificada."))
@@ -103,8 +103,15 @@ ventana = tk.Tk()
 ventana.title("Migrador de datos JASPER a CLARO CONNECT")
 ventana.state("zoomed")
 
+# Obtener la ruta del directorio actual del script
+current_dir = os.path.dirname(__file__)
+
+# Construir la ruta relativa al archivo de imagen
+file_path = os.path.join(current_dir, "recursos", "migrador3.png")
+
 # Cambiar el ícono de la ventana (asegúrate de que "icono.ico" esté en la misma carpeta)
-icono = tk.PhotoImage(file= r"C:\\Migracion\\interface\\recursos\\migrador3.png")  # Usa .png o .ico
+#file_path = (f"/interface/recursos/migrador3.png")
+icono = tk.PhotoImage(file=file_path)  # Usa .png o .ico
 ventana.iconphoto(True, icono)
 
 # Marco principal que contiene dos columnas
@@ -127,9 +134,12 @@ frame_left.pack(side=tk.LEFT, fill=tk.BOTH, expand=True, padx=5)
 frame_right = tk.Frame(frame_columns, width=200)
 frame_right.pack(side=tk.LEFT, fill=tk.BOTH, expand=True, padx=5)
 
+# Construir la ruta relativa al archivo de imagen
+img_path = os.path.join(current_dir, "recursos", "migrador5.png")
+
 # Agregar imagen al lado izquierdo del botón seleccionar archivo
 try:
-    img_path = r"C:\\Migracion\\interface\\recursos\\migrador5.png"  # Cambiar a PNG
+    #img_path = (f"/interface/recursos/migrador5.png")  # Cambiar a PNG
     icon_image = PhotoImage(file=img_path)
     label_icon = tk.Label(frame_file, image=icon_image, anchor="w")  # Anchor para alineación izquierda
     label_icon.image = icon_image  # Mantener referencia para evitar el recolector de basura
@@ -199,7 +209,8 @@ def _ejecutar_merge_script():
     global selected_file, output_folder
     try:
         message_queue.put(("start_progress",))
-        script_path = os.path.join(r"C:\\Migracion\\interface", "compilar.py")
+        #script_path = os.path.join(f"/interface/", "compilar.py")
+        script_path = os.path.join(current_dir, "compilar.py")
 
         if not os.path.exists(script_path):
             message_queue.put(("error", "El script compilar.py no se encuentra en la ruta especificada."))
