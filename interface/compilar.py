@@ -29,9 +29,11 @@ def seleccionar_carpetas(subfolders, output_folder, selected_file_name):
 
     def update_toggle_btn_text():
         if all(var.get() for var in var_list):
-            toggle_btn.config(text="Deseleccionar todo", fg="red")
+            toggle_btn.config(text="Deseleccionar todo")
+            toggle_btn_style.configure("Toggle.TButton", foreground="red")
         else:
-            toggle_btn.config(text="Seleccionar todo", fg="black")
+            toggle_btn.config(text="Seleccionar todo")
+            toggle_btn_style.configure("Toggle.TButton", foreground="black")
 
     def on_closing():
         global window_closed
@@ -46,6 +48,9 @@ def seleccionar_carpetas(subfolders, output_folder, selected_file_name):
     style.configure("TButton", font=("Helvetica", 12), padding=10)
     style.configure("TCheckbutton", font=("Helvetica", 12))
 
+    toggle_btn_style = ttk.Style()
+    toggle_btn_style.configure("Toggle.TButton", font=("Helvetica", 12))
+
     var_list = []
 
     # Frame para los checkboxes con margen superior
@@ -59,7 +64,7 @@ def seleccionar_carpetas(subfolders, output_folder, selected_file_name):
         var_list.append(var)
 
     # Botón para seleccionar/deseleccionar todo
-    toggle_btn = ttk.Button(root, text="Seleccionar todo", command=toggle_select_all, style="TButton")
+    toggle_btn = ttk.Button(root, text="Seleccionar todo", command=toggle_select_all, style="Toggle.TButton")
     toggle_btn.grid(row=0, column=0, sticky="w", pady=(20, 10), padx=20)
 
     # Crear el botón de "Continuar" con el estilo actualizado
